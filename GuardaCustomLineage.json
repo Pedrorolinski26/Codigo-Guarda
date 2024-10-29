@@ -446,7 +446,7 @@
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
-				{
+						{
 			"name": "Eryndor",
 			"source": "Guarda",
 			"page": 8,
@@ -462,7 +462,7 @@
 				{ "Nature": true }
 			],
 			"entries": [
-				"Abençoados pela própria natureza, eles não apenas coexistem com as florestas; são parte dela. Suas peles são marcadas com runas que os conecta com a vida selvagem, possibilitando se comunicar com ela. Poucos são escolhidos para se tornar um Eryndor...",
+				"Abençoados pela própria natureza, eles não apenas coexistem com as florestas; são parte dela. Suas peles são marcadas com runas que os conecta com a vida selvagem, possibilitandto se comunicar com ela. Poucos são escolhidos para se tornar um Eryndor, acolhidos pela própria terra sendo abençoados por espíritos do mundo natural. Normalmente, os escolhidos recebem esse presente após realizarem um favor imensurável para as entidades da natureza ou são incumbidos por ela de um dever sagrado. Aqueles com as runas Eryndir em seu corpo possuem a capacidade de transformar parte do seu corpo em partes animais usando formas mistas entre animais e humanóides para desenvolver habilidades animais.!",
 				{
 					"type": "entries",
 					"name": "Marca selvagem",
@@ -470,7 +470,12 @@
 						"A aparência de um Eryndor não tem grandes diferenças da raça original, contudo a bênção concede algumas características aleatórias:",
 						"1 - A cor de seus cabelos ou pelos assume tons anormais para a raça.",
 						"2 - Os seus olhos mudam de cor e forma, assumindo cores fortes ou pupilas animalescas.",
-						"...",
+                                                "3 - seu peso é o dobro / metade do padrão de sua raça ",
+                                                "4 - algumas partes do seu corpo se tornam de um animal (cascos, orelhas, etc...)",
+                                                "5 - seus pelos ou cabelos crescem anormalmente rápido",
+                                                "6 - seu corpo é anormalmente frio",
+                                                "7 - as cores de seus olhos, cabelos e pêlos muda sempre que você dorme",
+                                                "9 - cheiro de flores, grama ou semelhantes costumam de você",
 						"10 - Você tem um rabo."
 					]
 				},
@@ -506,7 +511,7 @@
 					"type": "entries",
 					"name": "Armas bestiais",
 					"entries": [
-						"Você pode fazer seus dentes e unhas crescerem ficando afiados como uma adaga, tornando-se armas naturais..."
+						"Como uma ação bônus, você pode pular um número de pés igual a cinco vezes sua proficiência. Você pode fazer isso somente se sua velocidade for maior que 0. Você pode usá-la um número de vezes igual ao sua proficiência, e você recupera os usos em um descanso longo."
 					]
 				},
 				{
@@ -535,7 +540,7 @@
 								{
 									"type": "item",
 									"name": "Subterrâneo",
-									"entry": "Como uma Ação Bônus, você ganha Tremorsense com um alcance de 60 pés..."
+									"entry": "Sentidos da terra: Como uma Ação Bônus, você ganha Tremorsense com um alcance de 60 pés por 10 minutos. Você deve estar tocando uma superfície de pedra para usar este Tremorsense. Você pode fazer isso um número de vezes igual a sua Proficiência, e recupera os usos gastos quando termina um Descanso Longo"
 								}
 							],
 							"style": "list-hang-notitle"
@@ -595,7 +600,7 @@
 								"name": "Peso pena",
 								"type": "entries",
 								"entries": [
-									"Você pode desacelerar sua queda ou permitir que você plane..."
+									"VVocê pode desacelerar sua queda ou permitir que você plane. Quando você cai e não está incapacitado, você pode subtrair até 100 pés da queda ao calcular o dano da queda, e você pode se mover o seu deslocamento de caminhada durante a queda"
 								]
 							}
 						}
@@ -612,7 +617,7 @@
 								"name": "Sentidos da terra",
 								"type": "entries",
 								"entries": [
-									"Como uma Ação Bônus, você ganha Tremorsense com um alcance de 60 pés por 10 minutos..."
+									"Como uma Ação Bônus, você ganha Tremorsense com um alcance de 60 pés por 10 minutos. Você deve estar tocando uma superfície de pedra para usar este Tremorsense. Você pode fazer isso um número de vezes igual a sua Proficiência, e recupera os usos gastos quando termina um Descanso Longo"
 								]
 							}
 						}
