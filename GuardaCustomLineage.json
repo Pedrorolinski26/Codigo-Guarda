@@ -450,7 +450,7 @@
 			"name": "Eryndor",
 			"source": "Guarda",
 			"page": 8,
-			"lineage": true,
+			"lineage": "VRGR",
 			"size": ["S", "M"],
 			"speed": {
 				"walk": 30
@@ -475,8 +475,7 @@
                                                 "5 - seus pelos ou cabelos crescem anormalmente rápido",
                                                 "6 - seu corpo é anormalmente frio",
                                                 "7 - as cores de seus olhos, cabelos e pêlos muda sempre que você dorme",
-                                                "9 - cheiro de flores, grama ou semelhantes costumam de você",
-						"10 - Você tem um rabo."
+                                                "8 - cheiro de flores, grama ou semelhantes costumam de você."
 					]
 				},
 				{
@@ -587,7 +586,7 @@
 							"walk": 30,
 							"swim": 30
 						}
-					},
+					}
 				},
 				{
 					"name": "Céu",
@@ -600,7 +599,7 @@
 								"name": "Peso pena",
 								"type": "entries",
 								"entries": [
-									"VVocê pode desacelerar sua queda ou permitir que você plane. Quando você cai e não está incapacitado, você pode subtrair até 100 pés da queda ao calcular o dano da queda, e você pode se mover o seu deslocamento de caminhada durante a queda"
+									"Você pode desacelerar sua queda ou permitir que você plane. Quando você cai e não está incapacitado, você pode subtrair até 100 pés da queda ao calcular o dano da queda, e você pode se mover o seu deslocamento de caminhada durante a queda"
 								]
 							}
 						}
@@ -625,6 +624,6 @@
 				}
 			]
 		}
-        ],
+        ]
 },
 	
