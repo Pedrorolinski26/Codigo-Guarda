@@ -446,11 +446,11 @@
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
-						{
+	{
 			"name": "Eryndor",
 			"source": "Guarda",
 			"page": 8,
-			"lineage": "VRGR",
+			"lineage": true,
 			"size": ["S", "M"],
 			"speed": {
 				"walk": 30
@@ -462,7 +462,7 @@
 				{ "Nature": true }
 			],
 			"entries": [
-				"Abençoados pela própria natureza, eles não apenas coexistem com as florestas; são parte dela. Suas peles são marcadas com runas que os conecta com a vida selvagem, possibilitandto se comunicar com ela. Poucos são escolhidos para se tornar um Eryndor, acolhidos pela própria terra sendo abençoados por espíritos do mundo natural. Normalmente, os escolhidos recebem esse presente após realizarem um favor imensurável para as entidades da natureza ou são incumbidos por ela de um dever sagrado. Aqueles com as runas Eryndir em seu corpo possuem a capacidade de transformar parte do seu corpo em partes animais usando formas mistas entre animais e humanóides para desenvolver habilidades animais.!",
+				"Abençoados pela própria natureza, eles não apenas coexistem com as florestas; são parte dela. Suas peles são marcadas com runas que os conecta com a vida selvagem, possibilitando se comunicar com ela. Poucos são escolhidos para se tornar um Eryndor, acolhidos pela própria terra sendo abençoados por espíritos do mundo natural. Normalmente, os escolhidos recebem esse presente após realizarem um favor imensurável para as entidades da natureza ou são incumbidos por ela de um dever sagrado. Aqueles com as runas Eryndir em seu corpo possuem a capacidade de transformar parte do seu corpo em partes animais usando formas mistas entre animais e humanóides para desenvolver habilidades animais.!",
 				{
 					"type": "entries",
 					"name": "Marca selvagem",
@@ -475,7 +475,7 @@
                                                 "5 - seus pelos ou cabelos crescem anormalmente rápido",
                                                 "6 - seu corpo é anormalmente frio",
                                                 "7 - as cores de seus olhos, cabelos e pêlos muda sempre que você dorme",
-                                                "8 - cheiro de flores, grama ou semelhantes costumam de você."
+                                                "8 - cheiro de flores, grama ou semelhantes costumam de você"
 					]
 				},
 				{
@@ -496,14 +496,14 @@
 					"type": "entries",
 					"name": "Conhecimento natural",
 					"entries": [
-						"Você ganha proficiência em Natureza e outra perícia à sua escolha."
+						"Você ganha proficiência em natureza e outra perícia à sua escolha."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Agilidade felina",
 					"entries": [
-						"Como uma ação bônus, você pode pular um número de pés igual a cinco vezes sua proficiência..."
+						"Como uma ação bônus, você pode pular um número de pés igual a cinco vezes sua proficiência. Você pode fazer isso somente se sua velocidade for maior que 0. Você pode usá-la um número de vezes igual ao sua proficiência, e você recupera os usos em um descanso longo."
 					]
 				},
 				{
@@ -586,7 +586,7 @@
 							"walk": 30,
 							"swim": 30
 						}
-					}
+					},
 				},
 				{
 					"name": "Céu",
@@ -622,8 +622,6 @@
 						}
 					}
 				}
-			]
-		}
         ]
 },
 	
