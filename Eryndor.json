@@ -32,7 +32,7 @@
 				{ "Nature": true }
 			],
 			"entries": [
-				"Abençoados pela própria natureza, eles não apenas coexistem com as florestas; são parte dela. Suas peles são marcadas com runas que os conecta com a vida selvagem, possibilitandto se comunicar com ela. Poucos são escolhidos para se tornar um Eryndor, acolhidos pela própria terra sendo abençoados por espíritos do mundo natural. Normalmente, os escolhidos recebem esse presente após realizarem um favor imensurável para as entidades da natureza ou são incumbidos por ela de um dever sagrado. Aqueles com as runas Eryndir em seu corpo possuem a capacidade de transformar parte do seu corpo em partes animais usando formas mistas entre animais e humanóides para desenvolver habilidades animais.!",
+				"Abençoados pela própria natureza, eles não apenas coexistem com as florestas; são parte dela. Suas peles são marcadas com runas que os conecta com a vida selvagem, possibilitando se comunicar com ela. Poucos são escolhidos para se tornar um Eryndor, acolhidos pela própria terra sendo abençoados por espíritos do mundo natural. Normalmente, os escolhidos recebem esse presente após realizarem um favor imensurável para as entidades da natureza ou são incumbidos por ela de um dever sagrado. Aqueles com as runas Eryndir em seu corpo possuem a capacidade de transformar parte do seu corpo em partes animais usando formas mistas entre animais e humanóides para desenvolver habilidades animais.!",
 				{
 					"type": "entries",
 					"name": "Marca selvagem",
@@ -155,7 +155,7 @@
 						"speed": {
 							"walk": 30,
 							"swim": 30
-						},
+						}
 					},
 				},
 				{
