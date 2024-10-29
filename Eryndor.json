@@ -45,8 +45,7 @@
                                                 "5 - seus pelos ou cabelos crescem anormalmente rápido",
                                                 "6 - seu corpo é anormalmente frio",
                                                 "7 - as cores de seus olhos, cabelos e pêlos muda sempre que você dorme",
-                                                "9 - cheiro de flores, grama ou semelhantes costumam de você",
-						"10 - Você tem um rabo."
+                                                "8 - cheiro de flores, grama ou semelhantes costumam de você"
 					]
 				},
 				{
@@ -67,14 +66,14 @@
 					"type": "entries",
 					"name": "Conhecimento natural",
 					"entries": [
-						"Você ganha proficiência em Natureza e outra perícia à sua escolha."
+						"Você ganha proficiência em natureza e outra perícia à sua escolha."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Agilidade felina",
 					"entries": [
-						"Como uma ação bônus, você pode pular um número de pés igual a cinco vezes sua proficiência..."
+						"Como uma ação bônus, você pode pular um número de pés igual a cinco vezes sua proficiência. Você pode fazer isso somente se sua velocidade for maior que 0. Você pode usá-la um número de vezes igual ao sua proficiência, e você recupera os usos em um descanso longo."
 					]
 				},
 				{
@@ -156,7 +155,7 @@
 						"speed": {
 							"walk": 30,
 							"swim": 30
-						}
+						},
 					},
 				},
 				{
@@ -170,7 +169,7 @@
 								"name": "Peso pena",
 								"type": "entries",
 								"entries": [
-									"VVocê pode desacelerar sua queda ou permitir que você plane. Quando você cai e não está incapacitado, você pode subtrair até 100 pés da queda ao calcular o dano da queda, e você pode se mover o seu deslocamento de caminhada durante a queda"
+									"Você pode desacelerar sua queda ou permitir que você plane. Quando você cai e não está incapacitado, você pode subtrair até 100 pés da queda ao calcular o dano da queda, e você pode se mover o seu deslocamento de caminhada durante a queda"
 								]
 							}
 						}
