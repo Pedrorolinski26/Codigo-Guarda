@@ -459,13 +459,16 @@
 				"walk": 30
 			},
 			"darkvision": 60,
-			"traitTags": [
-				"Natural Weapon"
-			],
+			
 			"skillProficiencies": [
 				{
-					"nature": true,
-					"any": 1
+					"choose": {
+						"from": [
+							"Insight",
+							"perception",
+							"survival"
+						]
+					}
 				}
 			],
 			"entries": [
