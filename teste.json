@@ -561,7 +561,7 @@
 							"mode": "replaceArr",
 							"replace": "Origem da benção",
 							"items": {
-								"name": "Rato do Esgotos",
+								"name": "Mar",
 								"type": "entries",
 								"entries": [
 									"Você ganha deslocamento de natação igual ao de caminhada e pode respirar normalmente dentro da água"
@@ -584,37 +584,30 @@
 								"name": "Céu",
 								"type": "entries",
 								"entries": [
-									"Você tem vantagem em testes de resistência {@condition frightened}. Além disso, você é proficiente na perícia {@skill Persuasion}."
+									"Você pode desacelerar sua queda ou permitir que você plane. Quando você cai e não está incapacitado, você pode subtrair até 100 pés da queda ao calcular o dano da queda, e você pode se mover o seu deslocamento de caminhada durante a queda"
 								]
 							}
 						}
 					},
 					"speed": 30,
-					"skillProficiencies": [
-						{
-							"persuasion": true
-						}
-					]
 				},
 				{
-					"name": "Rato dos Esgotos",
+					"name": "Subterrâneo",
 					"source": "Guarda",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
 							"replace": "Origem da benção",
 							"items": {
-								"name": "Rato do Esgotos",
+								"name": "Subterrâneo",
 								"type": "entries",
 								"entries": [
-									"Você tem um deslocamento de natação igual ao seu deslocamento de caminhada. Você pode prender a respiração por até 15 minutos."
+									"Como uma Ação Bônus, você ganha Tremorsense com um alcance de 60 pés por 10 minutos. Você deve estar tocando uma superfície de pedra para usar este Tremorsense. Você pode fazer isso um número de vezes igual a sua Proficiência, e recupera os usos gastos quando termina um Descanso Longo"
 								]
 							}
 						}
 					},
-					"speed": {
-						"walk": 30,
-						"swim": 30
+					"speed":30
 					}
 				}
 			]
