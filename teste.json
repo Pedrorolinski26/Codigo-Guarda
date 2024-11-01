@@ -449,8 +449,8 @@
 		{
 			"name": "Eryndor",
 			"source": "Guarda",
-			"page": 33,
-			"lineage": "VRGR",
+			"page": 8,
+			"lineage": true,
 			"size": [
 				"S",
 				"M"
