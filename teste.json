@@ -449,15 +449,15 @@
 		{
 			"name": "Eryndor",
 			"source": "Guarda",
-			"page": 25,
+			"page": 6,
 			"lineage": "VRGR",
 			"size": [
-				"S"
+				"S",
+				"M"
 			],
 			"speed": {
 				"walk": 30,
-				"swim": 30,
-				"climb": 30
+				"swim": 30
 			},
 			"darkvision": 60,
 			"traitTags": [
@@ -465,8 +465,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"persuasion": true,
-					"stealth": true
+					"Nature": true,
 				}
 			],
 			"entries": [
