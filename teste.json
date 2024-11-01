@@ -500,7 +500,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Descendência Roedora",
+					"name": "Origem da benção",
 					"entries": [
 						"Escolha uma das seguintes opções:",
 						{
@@ -508,18 +508,23 @@
 							"items": [
 								{
 									"type": "item",
-									"name": "Rato da Cidade",
-									"entry": "Você tem um deslocamento de escalada igual ao seu deslocamento de caminhada. Além disso, você é proficiente na perícia {@skill Stealth}"
+									"name": "Floresta",
+									"entry": "Constituição da selva: você tem vantagens em testes contra a condição envenenada e resistência a dano de veneno."
 								},
 								{
 									"type": "item",
-									"name": "Camundongo",
-									"entry": "Você tem vantagem em testes de resistência {@condition frightened}. Além disso, você é proficiente na perícia {@skill Persuation}."
+									"name": "Mar",
+									"entry": "Nascido para a água:  Você ganha deslocamento de natação igual ao de caminhada e pode respirar normalmente dentro da água"
 								},
 								{
 									"type": "item",
-									"name": "Rato do Esgotos",
-									"entry": "Você tem um deslocamento de natação igual ao seu deslocamento de caminhada. Você pode prender a respiração por até 15 minutos."
+									"name": "Céu",
+									"entry": "Peso pena: Você pode desacelerar sua queda ou permitir que você plane. Quando você cai e não está incapacitado, você pode subtrair até 100 pés da queda ao calcular o dano da queda, e você pode se mover o seu deslocamento de caminhada durante a queda"
+								},
+								{
+									"type": "item",
+									"name": "Subterrâneo",
+									"entry": "Sentidos da terra: Como uma Ação Bônus, você ganha Tremorsense com um alcance de 60 pés por 10 minutos. Você deve estar tocando uma superfície de pedra para usar este Tremorsense. Você pode fazer isso um número de vezes igual a sua Proficiência, e recupera os usos gastos quando termina um Descanso Longo"
 								}
 							],
 							"style": "list-hang-notitle"
@@ -531,40 +536,52 @@
 			"hasFluffImages": true,
 			"_versions": [
 				{
-					"name": "Rato da Cidade",
+					"name": "Floresta",
 					"source": "Guarda",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Descendência Roedora",
+							"replace": "Origem da benção",
 							"items": {
-								"name": "Rato da Cidade",
+								"name": "Floresta",
 								"type": "entries",
 								"entries": [
-									"Você tem um deslocamento de escalada igual ao seu deslocamento de caminhada. Além disso, você é proficiente na perícia {@skill Stealth}."
+									"você tem vantagens em testes contra a condição envenenada e resistência a dano de veneno."
+								]
+							}
+						}
+					},
+					"speed": 30
+				},
+				{
+					"name": "Mar",
+					"source": "Guarda",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Origem da benção",
+							"items": {
+								"name": "Rato do Esgotos",
+								"type": "entries",
+								"entries": [
+									"Você ganha deslocamento de natação igual ao de caminhada e pode respirar normalmente dentro da água"
 								]
 							}
 						}
 					},
 					"speed": {
 						"walk": 30,
-						"climb": 30
-					},
-					"skillProficiencies": [
-						{
-							"stealth": true
-						}
-					]
-				},
+						"swim": 30
+					}
 				{
-					"name": "Camundongo",
+					"name": "Céu",
 					"source": "Guarda",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Descendência Roedora",
+							"replace": "Origem da benção",
 							"items": {
-								"name": "Camundongo",
+								"name": "Céu",
 								"type": "entries",
 								"entries": [
 									"Você tem vantagem em testes de resistência {@condition frightened}. Além disso, você é proficiente na perícia {@skill Persuasion}."
@@ -585,7 +602,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Descendência Roedora",
+							"replace": "Origem da benção",
 							"items": {
 								"name": "Rato do Esgotos",
 								"type": "entries",
