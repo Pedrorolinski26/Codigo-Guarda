@@ -105,14 +105,23 @@
 					"name": "Armas bestiais",
 					"entries": [
 						"Você pode fazer seus dentes e unhas crescerem ficando afiados como uma adaga as tornando arma natural na forma de uma presas e garras, que causa {@damage 1d4} de dano perfurante ou cortante e {@damage 1d4} de dano de veneno. Ao acertar um ataque, você pode deixar o alvo envenenado com um teste de con (CD 8 + prof + con) até o final do seu próximo turno, você pode envenenar um número de vocês igual a sua proficiência por descanso longo"
-					]
+					],
 				},
 				{
 					"type": "entries",
 					"name": "Agilidade felina",
 					"entries": [
 						"Como uma ação bônus, você pode pular um número de pés igual a cinco vezes sua proficiência. Você pode fazer isso somente se sua velocidade for maior que 0. Você pode usá-la um número de vezes igual ao sua proficiência, e você recupera os usos em um descanso longo."
-					]
+					],
+			                "images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "icons/magic/perception/eye-ringed-glow-angry-small-red.webp"
+					}
+				}
+			]
 				},
 				{
 					"type": "entries",
