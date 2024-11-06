@@ -25,6 +25,9 @@
 			"source": "Guarda",
 			"page": 8,
 			"lineage": true,
+			"creatureTypes": [
+				"fey"
+			],
 			"size": [
 				"S",
 				"M"
@@ -39,16 +42,69 @@
 			],
 			"skillProficiencies": [
 				{
-					"Nature": true,
+					"nature": true,
 						"any": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Marcas selvagens",
+					"entries": [
+						"A aparecencia de um Eryndor não tem grandes diferenças da raça original, contudo a benção concede algumas características aleatóriamente.",
+						{
+							"type": "table",
+							"caption": "Marcas selvagens",
+							"colLabels": [
+								"d8",
+								"Hunger"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"A cor de seus cabelos ou pelos assume tons anormais para a raça "
+								],
+								[
+									"2",
+									"Os seus olhos mudam de cor e forma, assumindo cores fortes ou pupilas animalescos "
+								],
+								[
+									"3",
+									"Seu peso é o dobro / metade do padrão de sua raça "
+								],
+								[
+									"4",
+									"Algumas partes do seu corpo se tornam de um animal (cascos, orelhas, etc...)"
+								],
+								[
+									"5",
+									"Seus pelos ou cabelos crescem anormalmente rápido"
+								],
+								[
+									"6",
+									"Seu corpo é anormalmente frio"
+								],
+																[
+									"7",
+									"As cores de seus olhos, cabelos e pêlos muda sempre que você dorme "
+								],
+								[
+									"8",
+									"Cheiro de flores, grama ou semelhantes costumam ser emitidos de você"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Armas bestiais",
 					"entries": [
-						"Você pode fazer seus dentes e unhas crescerem ficando afiados como uma adaga as tornando arma natural na forma de uma presas e garras, que causa 1d4+FOR de dano perfurante ou cortante e 1d4 de dano de veneno. Ao acertar um ataque, você pode deixar o alvo envenenado com um teste de con (CD 8 + prof + con) até o final do seu próximo turno, você pode envenenar um número de vocês igual a sua proficiência por descanso longo"
+						"Você pode fazer seus dentes e unhas crescerem ficando afiados como uma adaga as tornando arma natural na forma de uma presas e garras, que causa {@damage 1d4} de dano perfurante ou cortante e {@damage 1d4} de dano de veneno. Ao acertar um ataque, você pode deixar o alvo envenenado com um teste de con (CD 8 + prof + con) até o final do seu próximo turno, você pode envenenar um número de vocês igual a sua proficiência por descanso longo"
 					]
 				},
 				{
@@ -56,20 +112,6 @@
 					"name": "Agilidade felina",
 					"entries": [
 						"Como uma ação bônus, você pode pular um número de pés igual a cinco vezes sua proficiência. Você pode fazer isso somente se sua velocidade for maior que 0. Você pode usá-la um número de vezes igual ao sua proficiência, e você recupera os usos em um descanso longo."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Visão no Escuro",
-					"entries": [
-						"Você tem visão no escuro de 60 pés"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Conhecimento natural",
-					"entries": [
-						"você ganha proficiência em natureza e outra pericia a sua escolha."
 					]
 				},
 				{
@@ -110,14 +152,14 @@
 			"hasFluffImages": true,
 			"_versions": [
 				{
-					"name": "Floresta",
+					"name": "Eryndor (Floresta)",
 					"source": "Guarda",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
 							"replace": "Origem da benção",
 							"items": {
-								"name": "Floresta",
+								"name": "Constituição da selva",
 								"type": "entries",
 								"entries": [
 									"você tem vantagens em testes contra a condição envenenada e resistência a dano de veneno."
@@ -128,14 +170,14 @@
 					"speed": 30
 				},
 				{
-					"name": "Mar",
+					"name": "Eryndor (Mar)",
 					"source": "Guarda",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
 							"replace": "Origem da benção",
 							"items": {
-								"name": "Mar",
+								"name": "Nascido para a água",
 								"type": "entries",
 								"entries": [
 									"Você ganha deslocamento de natação igual ao de caminhada e pode respirar normalmente dentro da água"
@@ -149,14 +191,14 @@
 					}
 				},
 				{
-					"name": "Céu",
+					"name": "Eryndor (Céu)",
 					"source": "Guarda",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
 							"replace": "Origem da benção",
 							"items": {
-								"name": "Céu",
+								"name": "Peso pena",
 								"type": "entries",
 								"entries": [
 									"Você pode desacelerar sua queda ou permitir que você plane. Quando você cai e não está incapacitado, você pode subtrair até 100 pés da queda ao calcular o dano da queda, e você pode se mover o seu deslocamento de caminhada durante a queda"
@@ -167,14 +209,14 @@
 					"speed": 30
 				},
 				{
-					"name": "Subterrâneo",
+					"name": "Eryndor (Subterrâneo)",
 					"source": "Guarda",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
 							"replace": "Origem da benção",
 							"items": {
-								"name": "Subterrâneo",
+								"name": "Sentidos da terra",
 								"type": "entries",
 								"entries": [
 									"Como uma Ação Bônus, você ganha Tremorsense com um alcance de 60 pés por 10 minutos. Você deve estar tocando uma superfície de pedra para usar este Tremorsense. Você pode fazer isso um número de vezes igual a sua Proficiência, e recupera os usos gastos quando termina um Descanso Longo"
@@ -186,5 +228,13 @@
 				}
 			]
 		}
-	]
+	],
+		"GUARDA": {
+		"Armas bestiais": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+		"Marcas selvagens": "icons/magic/nature/elemental-plant-humanoid.webp",
+		"Agilidade felina": "icons/creatures/abilities/paw-glowing-yellow.webp",
+		"Constituição da selva": "icons/magic/nature/barrier-shield-wood-vines.webp",
+		"Nascido para a água": "icons/creatures/fish/fish-marlin-swordfight-blue.webp",
+		"Peso pena": "icons/magic/air/wind-swirl-gray-blue.webp",
+		"Sentidos da terra": "icons/magic/earth/barrier-stone-brown-green.webp"}
 }
