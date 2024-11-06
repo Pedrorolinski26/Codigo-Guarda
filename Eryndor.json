@@ -112,16 +112,7 @@
 					"name": "Agilidade felina",
 					"entries": [
 						"Como uma ação bônus, você pode pular um número de pés igual a cinco vezes sua proficiência. Você pode fazer isso somente se sua velocidade for maior que 0. Você pode usá-la um número de vezes igual ao sua proficiência, e você recupera os usos em um descanso longo."
-					],
-			                "images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "icons/magic/perception/eye-ringed-glow-angry-small-red.webp"
-					}
-				}
-			]
+					]
 				},
 				{
 					"type": "entries",
