@@ -451,6 +451,9 @@
 			"source": "Guarda",
 			"page": 8,
 			"lineage": true,
+			"creatureTypes": [
+				"fey"
+			],
 			"size": [
 				"S",
 				"M"
@@ -465,7 +468,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"Nature": true,
+					"nature": true,
 						"any": 1
 				}
 			],
@@ -474,7 +477,7 @@
 					"type": "entries",
 					"name": "Armas bestiais",
 					"entries": [
-						"Você pode fazer seus dentes e unhas crescerem ficando afiados como uma adaga as tornando arma natural na forma de uma presas e garras, que causa 1d4+FOR de dano perfurante ou cortante e 1d4 de dano de veneno. Ao acertar um ataque, você pode deixar o alvo envenenado com um teste de con (CD 8 + prof + con) até o final do seu próximo turno, você pode envenenar um número de vocês igual a sua proficiência por descanso longo"
+						"Você pode fazer seus dentes e unhas crescerem ficando afiados como uma adaga as tornando arma natural na forma de uma presas e garras, que causa {@damage 1d4} de dano perfurante ou cortante e {@damage 1d4} de dano de veneno. Ao acertar um ataque, você pode deixar o alvo envenenado com um teste de con (CD 8 + prof + con) até o final do seu próximo turno, você pode envenenar um número de vocês igual a sua proficiência por descanso longo"
 					]
 				},
 				{
@@ -482,13 +485,6 @@
 					"name": "Agilidade felina",
 					"entries": [
 						"Como uma ação bônus, você pode pular um número de pés igual a cinco vezes sua proficiência. Você pode fazer isso somente se sua velocidade for maior que 0. Você pode usá-la um número de vezes igual ao sua proficiência, e você recupera os usos em um descanso longo."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Visão no Escuro",
-					"entries": [
-						"Você tem visão no escuro de 60 pés"
 					]
 				},
 				{
@@ -554,7 +550,7 @@
 					"speed": 30
 				},
 				{
-					"name": "Mar",
+					"name": "Eryndor",
 					"source": "Guarda",
 					"_mod": {
 						"entries": {
