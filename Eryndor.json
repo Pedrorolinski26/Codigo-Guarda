@@ -105,7 +105,7 @@
 					"name": "Armas bestiais",
 					"entries": [
 						"Você pode fazer seus dentes e unhas crescerem ficando afiados como uma adaga as tornando arma natural na forma de uma presas e garras, que causa {@damage 1d4} de dano perfurante ou cortante e {@damage 1d4} de dano de veneno. Ao acertar um ataque, você pode deixar o alvo envenenado com um teste de con (CD 8 + prof + con) até o final do seu próximo turno, você pode envenenar um número de vocês igual a sua proficiência por descanso longo"
-					],
+					]
 				},
 				{
 					"type": "entries",
