@@ -294,7 +294,7 @@
 							"type": "item",
 							"name": "GUARDA",
 							"entries": [
-								"A magia conjurada pelo talento gasta seu spell slot normalmente"
+								"A magia conjurada pelo talento gasta seu spell slot normalmente",
  								"A magia colocada na carta deve ser uma que você é capaz de conjurar"
 							]
 						}
