@@ -52,12 +52,12 @@
                     "any": true
                 }
             ],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 2
-				}
-			],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 2
+                }
+            ],
             "entries": [
                 {
                     "name": "Talento de antecedente: Refúgio ao fiel",
@@ -65,6 +65,439 @@
                     "entries": [
                         "Como fiel peregrino, sua devoção incansável a uma jornada espiritual fortaleceu laços profundos com os santuários ao longo do seu caminho sagrado, mesmo que você nunca tenha visitado aquele templo antes, você sabe exatamente como pedir ajuda aos templos que seguem similaridades com sua fé. Você e seus companheiros de viagem podem esperar hospitalidade calorosa e cuidado espiritual nos lugares sagrados, marcos divinos e outros locais abençoados relacionados à entidades de mesmo alinhamento da entidade que você serve.",
                         "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        },
+        {
+            "name": "Charlatan",
+            "source": "GUARDA",
+            "page": 178,
+            "freeRules2024": true,
+            "edition": "one",
+            "feats": [
+                {
+                    "anyFromCategory": {
+                        "category": "O",
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "performance",
+                            "insight",
+                            "deception",
+                            "prestidigitation"
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "any": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 2
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Talento de antecedente: Identidade Falsa",
+                    "type": "entries",
+                    "entries": [
+                        "Com a experiência que você obteve ao longo dos anos sobre o que funciona ou não para enganar as pessoas, você criou uma segunda identidade que inclui documentação, conhecidos estabelecidos e disfarce que lhe permitem assumir essa personalidade. Essa sua segunda identidade, que deve constar em sua história, não necessita de testes de enganação para se passar por ela. Você também pode usar uma ferramenta de falsificação para criar qualquer documento que comprove sua identidade.",
+                        "."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        },
+        {
+            "name": "Criminal",
+            "source": "GUARDA",
+            "page": 178,
+            "freeRules2024": true,
+            "edition": "one",
+            "feats": [
+                {
+                    "anyFromCategory": {
+                        "category": "O",
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "deception",
+                            "intimidation",
+                            "prestidigitation",
+                            "stealth"
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "any": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 2
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Talento de antecedente: De olho no jogo.",
+                    "type": "entries",
+                    "entries": [
+                        "Devido a suas atividades consideradas ilícitas, você aprendeu a evitar os olhos dos governos. Você conhece o comportamento básico das organizações de segurança normais, e sabe evita-las. Como por exemplo sabendo localizar rotas de contrabando, ou encontrando possíveis contatos para evitar ser pego por crimes menores.",
+                        "."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        },
+        {
+            "name": "Entertainer",
+            "source": "GUARDA",
+            "page": 178,
+            "freeRules2024": true,
+            "edition": "one",
+            "feats": [
+                {
+                    "anyFromCategory": {
+                        "category": "O",
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "acrobatics",
+                            "performance",
+                            "prestidigitation",
+                            "persuasion"
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "any": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 2
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Talento de antecedente: Por demanda popular.",
+                    "type": "entries",
+                    "entries": [
+                        "Você sempre pode encontrar um lugar para se apresentar, geralmente em uma pousada ou taverna, mas possivelmente em um circo, em um teatro ou até mesmo na corte de um nobre. Nesse local, você recebe hospedagem e alimentação gratuitas de padrão modesto ou confortável (dependendo da qualidade do estabelecimento), desde que se apresente todas as noites. Além disso, seu desempenho faz de você uma espécie de figura local. Quando estranhos reconhecem você na cidade onde você se apresentou, eles normalmente gostam de você.",
+                        "."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        },
+        {
+            "name": "Farmer",
+            "source": "GUARDA",
+            "page": 178,
+            "freeRules2024": true,
+            "edition": "one",
+            "feats": [
+                {
+                    "anyFromCategory": {
+                        "category": "O",
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "animal handling",
+                            "nature",
+                            "athletics",
+                            "survival"
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "any": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 2
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Talento de antecedente: Experiente.",
+                    "type": "entries",
+                    "entries": [
+                        "Você tem uma familiaridade com a natureza e entendeu o funcionamento dela. Graças a isso você é capaz de discernir o clima que virá em um futuro breve. Além disso, você é capaz de identificar se algo não natural esta afetando o clima do ambiente.",
+                        "."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        },
+        {
+            "name": "Guard",
+            "source": "GUARDA",
+            "page": 178,
+            "freeRules2024": true,
+            "edition": "one",
+            "feats": [
+                {
+                    "anyFromCategory": {
+                        "category": "O",
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "athletics",
+                            "perception",
+                            "insight",
+                            "investigation"
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "any": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 2
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Talento de antecedente: Vigilante.",
+                    "type": "entries",
+                    "entries": [
+                        "Você é treinado para passar horas em vigília, capaz de manter-se em condições de boa atenção. Durante um descanso longo, você é capaz de dormir apenas 4 horas, desde que as outras 4 horas do descanso sejam usadas apenas para ficar em vigia.",
+                        "."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        },
+        {
+            "name": "Guild Artisan",
+            "source": "GUARDA",
+            "page": 178,
+            "freeRules2024": true,
+            "edition": "one",
+            "feats": [
+                {
+                    "anyFromCategory": {
+                        "category": "O",
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "insight",
+                            "sleight of hand",
+                            "persuasion",
+                            "history"
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "any": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 2
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Talento de antecedente: Juntador de pessoas",
+                    "type": "entries",
+                    "entries": [
+                        "Você aprendeu que pessoas trabalham melhor quando compartilham de um único desejo, como você sabe disso? Simples, você trabalhou no passado para uma guilda ou organização, fazendo trabalhos específicos e trabalhando em equipe em prol de um objetivo coletivo, quando se deparar com um problema onde a solução que envolva trabalho em grupo ou uso de ferramentas a qual você não é proficiente, você sabe montar uma equipe e o local mais provável para localizar pessoas que você precisa para a tarefa.",
+                        "Uma vez ao dia você pode solicitar ao mestre que revele a ferramenta necessária para a solução de um problema especifico, além de informar o local, ou pessoa, que provavelmente tenha essa proficiência."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        },
+        {
+            "name": "Pirate",
+            "source": "GUARDA",
+            "page": 178,
+            "freeRules2024": true,
+            "edition": "one",
+            "feats": [
+                {
+                    "anyFromCategory": {
+                        "category": "O",
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "Athletics",
+                            "Perception",
+                            "Deception",
+                            "Sleight of Hand"
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "any": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 2
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Talento de antecedente: Má reputação",
+                    "type": "entries",
+                    "entries": [
+                        "Não importa onde você esteja, as pessoas têm medo de você devido à sua reputação. Quando você está em um assentamento civilizado, você pode escapar impune de crimes menores, como recusar-se a pagar pela comida em uma taverna ou arrombar portas de uma loja local, já que a maioria das pessoas não denunciará sua atividade às autoridades.",
+                        "."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        },
+        {
+            "name": "Soldier",
+            "source": "GUARDA",
+            "page": 178,
+            "freeRules2024": true,
+            "edition": "one",
+            "feats": [
+                {
+                    "anyFromCategory": {
+                        "category": "O",
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "Athletics",
+                            "Intimidation",
+                            "Survival",
+                            "Medicine"
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "any": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 2
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Talento de antecedente: Cultura militar",
+                    "type": "entries",
+                    "entries": [
+                        "Sua experiência como soldado lhe concedeu um profundo entendimento da cultura militar e uma habilidade inata para ler e compreender a dinâmica das forças armadas. Você tem uma capacidade especial para avaliar rapidamente a organização e o ânimo das tropas, bem como extrair estratégias táticas das formações e posições das unidades militares.",
+                        "Quando você interage com militares ou observa tropas em formação, você tentar extrair estratégias as empregadas, a coesão das unidades e o moral dos soldados, com testes que vão depender do mestre.",
+                        "O mestre também poderá fornecer informações adicionais com base no resultado do teste, como identificar fraquezas nas defesas inimigas, prever movimentos táticos ou reconhecer sinais de descontentamento entre as tropas aliadas."
                     ],
                     "data": {
                         "isFeature": true
@@ -106,12 +539,12 @@
                     "any": true
                 }
             ],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 2
-				}
-			],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 2
+                }
+            ],
             "entries": [
                 {
                     "name": "Talento de antecedente: Segredos da cidade",
