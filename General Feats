@@ -94,7 +94,7 @@
 		},
 		{
 			"name": "Adept of the Red Robes",
-			"source": "DSotDQ",
+			"source": "GUARDA",
 			"page": 32,
             "category": "G",
             "ability": [
@@ -166,7 +166,7 @@
 		},
 		{
 			"name": "Adept of the White Robes",
-			"source": "DSotDQ",
+			"source": "GUARDA",
 			"page": 32,
             "category": "G",
             "ability": [
@@ -238,7 +238,7 @@
 		},
         {
 			"name": "Cartomancer",
-			"source": "BMT",
+			"source": "GUARDA",
 			"page": 49,
             "category": "G",
             "ability": [
@@ -296,7 +296,7 @@
 		},
         {
 			"name": "Cruel",
-			"source": "TDCSR",
+			"source": "GUARDA",
 			"page": 190,
             "category": "G",
 			"ability": [
@@ -320,7 +320,7 @@
 		},
         {
 			"name": "Divinely Favored",
-			"source": "DSotDQ",
+			"source": "GUARDA",
 			"page": 32,
             "category": "G",
             "ability": [
@@ -471,7 +471,7 @@
 		},
         {
 			"name": "Dungeon Delver",
-			"source": "PHB",
+			"source": "GUARDA",
 			"page": 166,
             "category": "G",
             "ability": [
@@ -500,7 +500,7 @@
 		},
         {
 			"name": "Eldritch Adept",
-			"source": "TCE",
+			"source": "GUARDA",
 			"page": 79,
             "category": "G",
 			"prerequisite": [
@@ -532,7 +532,7 @@
 		},
         {
 			"name": "Fighting Initiate",
-			"source": "TCE",
+			"source": "GUARDA",
 			"page": 80,
             "category": "G",
             "ability": [
@@ -573,7 +573,7 @@
 		},
         {
 			"name": "Flash Recall",
-			"source": "TDCSR",
+			"source": "GUARDA",
 			"page": 190,
             "category": "G",
             "ability": [
@@ -609,7 +609,7 @@
 		},
         {
 			"name": "Gift of the Chromatic Dragon",
-			"source": "FTD",
+			"source": "GUARDA",
 			"page": 17,
             "category": "G",
             "ability": [
@@ -643,7 +643,7 @@
 		},
         {
 			"name": "Gift of the Metallic Dragon",
-			"source": "FTD",
+			"source": "GUARDA",
 			"page": 17,
             "category": "G",
             "ability": [
@@ -704,7 +704,7 @@
 		},
         {
 			"name": "Martial Adept",
-			"source": "PHB",
+			"source": "GUARDA",
 			"page": 168,
             "category": "G",
             "ability": [
@@ -742,7 +742,7 @@
 		},
         {
 			"name": "Metamagic Adept",
-			"source": "TCE",
+			"source": "GUARDA",
 			"page": 80,
             "category": "G",
 			"prerequisite": [
@@ -779,7 +779,7 @@
 		},
         {
 			"name": "Mystic Conflux",
-			"source": "TDCSR",
+			"source": "GUARDA",
 			"page": 190,
             "category": "G",
             "ability": [
@@ -813,7 +813,7 @@
 		},
         {
 			"name": "Planar Wanderer",
-			"source": "SatO",
+			"source": "GUARDA",
 			"page": 11,
             "category": "G",
             "ability": [
@@ -873,7 +873,7 @@
 		},
         {
 			"name": "Spelldriver",
-			"source": "TDCSR",
+			"source": "GUARDA",
 			"page": 190,
             "category": "G",
             "ability": [
@@ -909,7 +909,7 @@
 		},
         {
 			"name": "Strixhaven Mascot",
-			"source": "SCC",
+			"source": "GUARDA",
 			"page": 37,
             "category": "G",
             "ability": [
@@ -957,7 +957,7 @@
 		},
         {
 			"name": "Vital Sacrifice",
-			"source": "TDCSR",
+			"source": "GUARDA",
 			"page": 191,
             "category": "G",
             "ability": [
