@@ -21,7 +21,7 @@
     },
     "feat": [
 {
-    "name": "Scion of the Outer Planes",
+    "name": "Scion of the Outer Planes [Inicial]",
     "source": "Guarda",
     "page": 12,
     "ability": [
@@ -57,6 +57,7 @@
             }
         }
     ],
+	"category": "O",
     "resist": [
         {
             "choose": {
@@ -192,7 +193,7 @@
     ]
 },
         {
-			"name": "Squire of Solamnia",
+			"name": "Squire of Solamnia [Inicial]",
 			"source": "Guarda",
 			"page": 34,
 			    "ability": [
@@ -228,6 +229,7 @@
             }
         }
     ],
+	"category": "O",
 			"entries": [
 				"Your training in the ways of the Knights of Solamnia grants you these benefits:",
 				{
@@ -260,7 +262,7 @@
 			]
 		},
 		{
-			"name": "Initiate of High Sorcery",
+			"name": "Initiate of High Sorcery [Inicial]",
 			"source": "Guarda",
 			"page": 32,
 			    "ability": [
@@ -296,6 +298,7 @@
             }
         }
     ],
+	"category": "O",
 			"additionalSpells": [
 				{
 					"name": "Nuitari",
@@ -441,7 +444,7 @@
 			"hasFluffImages": true
         },
         {
-			"name": "Rune Shaper",
+			"name": "Rune Shaper [Inicial]",
 			"source": "Guarda",
 			"page": 18,
 			    "ability": [
@@ -477,6 +480,7 @@
             }
         }
     ],
+	"category": "O",
 			"additionalSpells": [
 				{
 					"innate": {
@@ -582,7 +586,7 @@
 			]
         },
 		{
-			"name": "Strike of the Giants",
+			"name": "Strike of the Giants [Inicial]",
 			"source": "Guarda",
 			"page": 19,
 			    "ability": [
@@ -618,6 +622,7 @@
             }
         }
     ],
+	"category": "O",
 			"entries": [
 				"You have absorbed primeval magic that gives you an echo of the might of giants. When you take this feat, choose one of the benefits listed below. Once per turn, when you hit a target with a melee weapon attack or a ranged weapon attack using a thrown weapon, you can imbue the attack with an additional effect depending on the benefit you chose:",
 				{
@@ -667,7 +672,7 @@
 			]
         },
 		{
-			"name": "Strixhaven Initiate",
+			"name": "Strixhaven Initiate [Inicial]",
 			"source": "Guarda",
 			"page": 36,
     "ability": [
@@ -703,6 +708,7 @@
             }
         }
     ],
+	"category": "O",
 			"additionalSpells": [
 				{
 					"name": "Lorehold 1",
@@ -1159,7 +1165,7 @@
 			]
         },
 		{
-			"name": "Tough",
+			"name": "Tough [Inicial]",
 			"source": "Guarda",
 			"page": 202,
 			"ability": [
@@ -1188,7 +1194,7 @@
 			]
         },
 			{
-			"name": "Tavern Brawler",
+			"name": "Tavern Brawler [Inicial]",
 			"source": "Guarda",
 			"page": 170,
 			    "ability": [
@@ -1273,7 +1279,7 @@
 			]
         },
 			{
-			"name": "Skilled (Dex, con wis)",
+			"name": "Skilled (Dex, con wis) [Inicial]",
 			"source": "Guarda",
 			"page": 201,
 			    "ability": [
@@ -1337,7 +1343,7 @@
 			]
 		},
 	    		{
-			"name": "Skilled (str, int, cha)",
+			"name": "Skilled (str, int, cha) [Inicial]",
 			"source": "Guarda",
 			"page": 201,
 			    "ability": [
@@ -1401,7 +1407,7 @@
 			]
 		},  
 	    		{
-			"name": "Savage Attacker",
+			"name": "Savage Attacker [Inicial]",
 			"source": "Guarda",
 			"page": 201,
 			    "ability": [
@@ -1500,6 +1506,162 @@
 					"name": "Encouraging Song",
 					"entries": [
 						"As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus."
+					]
+				}
+			]
+		},
+	        {
+			"name": "Magic Initiate (wizard) [Inicial]",
+			"source": "Guarda",
+			"page": 201,
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "con",
+                        "wis",
+                        "int"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "con",
+                        "wis",
+                        "int"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
+			"freeRules2024": true,
+			"category": "O",
+			"repeatable": true,
+			"additionalSpells": [
+				{
+					"name": "Wizard Spells",
+					"ability": "int",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Wizard"
+									}
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Two Cantrips",
+					"entries": [
+						"You learn two cantrips of your choice from the {@filter Wizard|spells|level=0;1|class=Wizard} spell list. Intelligence is your spellcasting ability for this feat's spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 1 Spell",
+					"entries": [
+						"Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Change",
+					"entries": [
+						"Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Repeatable",
+					"entries": [
+						"You can take this feat more than once, but you must choose a different spell list each time."
+					]
+				}
+			],
+			"_versions": [
+
+				{
+					"name": "Magic Initiate; Wizard [Inicial]",
+					"source": "XPHB",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Two Cantrips",
+								"items": {
+									"name": "Two Cantrips",
+									"entries": [
+										"You learn two cantrips of your choice from the {@filter Wizard|spells|level=0;1|class=Wizard} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat)."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Level 1 Spell",
+								"items": {
+									"name": "Level 1 Spell",
+									"entries": [
+										"Choose a level 1 spell from the {@filter Wizard|spells|level=0;1|class=Wizard} spell list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+									]
+								}
+							}
+						]
+					},
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int"
+								]
+							},
+							"innate": {
+								"_": {
+									"daily": {
+										"1": [
+											{
+												"choose": "level=1|class=Wizard"
+											}
+										]
+									}
+								}
+							},
+							"known": {
+								"_": [
+									{
+										"choose": "level=0|class=Wizard",
+										"count": 2
+									}
+								]
+							}
+						}
 					]
 				}
 			]
