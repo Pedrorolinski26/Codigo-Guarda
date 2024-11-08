@@ -26,8 +26,13 @@
 			"page": 12,
 			"ability": [
 				{
-					"int": 1,
-					"choose": {
+					        "choose": {
+						"from": [
+							"wis",
+							"int",
+							"cha"
+						],
+						"choose": {
 						"from": [
 							"wis",
 							"int",
@@ -178,7 +183,13 @@
 			"page": 34,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"cha"
+						]
+					}
 					"choose": {
 						"from": [
 							"str",
@@ -227,7 +238,15 @@
 			"page": 32,
 			"ability": [
 				{
-					"int": 1,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"int",
+							"cha"
+						]
+					}
 					"choose": {
 						"from": [
 							"wis",
@@ -389,7 +408,15 @@
 			"page": 18,
 			"ability": [
 				{
-					"int": 1,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"int"
+						]
+					}
 					"choose": {
 						"from": [
 							"con",
@@ -511,7 +538,15 @@
 			"page": 19,
 			"ability": [
 				{
-					"int": 1,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						]
+					}
 					"choose": {
 						"from": [
 							"str",
@@ -591,7 +626,15 @@
 			"page": 36,
 			"ability": [
 				{
-					"int": 1,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"int",
+							"cha"
+						]
+					},
 					"choose": {
 						"from": [
 							"wis",
@@ -1064,7 +1107,15 @@
 			"page": 202,
 			"ability": [
 				{
-					"int": 1,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						]
+					},
 					"choose": {
 						"from": [
 							"str",
@@ -1087,7 +1138,15 @@
 			"page": 170,
 			"ability": [
 				{
-					"int": 1,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"wis"
+						]
+					},
 					"choose": {
 						"from": [
 							"str",
@@ -1131,7 +1190,15 @@
 			"page": 201,
 			"ability": [
 				{
-					"int": 1,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						]
+					},
 					"choose": {
 						"from": [
 							"dex",
@@ -1176,7 +1243,13 @@
 			"page": 201,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"str",
+							"int",
+							"cha"
+						]
+					},
 					"choose": {
 						"from": [
 							"str",
@@ -1221,7 +1294,13 @@
 			"page": 201,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						]
+					},
 					"choose": {
 						"from": [
 							"str",
@@ -1245,10 +1324,16 @@
 			"page": 201,
 			"ability": [
 				{
-					"int": 1,
 					"choose": {
 						"from": [
-							"srt",
+							"str",
+							"dex",
+							"cha"
+						]
+					},
+					"choose": {
+						"from": [
+							"str",
 							"dex",
 							"cha"
 						],
@@ -1287,7 +1372,13 @@
 			"page": 201,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"int"
+						]
+					},
 					"choose": {
 						"from": [
 							"con",
@@ -1432,7 +1523,13 @@
 			"page": 201,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						]
+					},
 					"choose": {
 						"from": [
 							"dex",
@@ -1576,7 +1673,13 @@
 			"page": 201,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
 					"choose": {
 						"from": [
 							"int",
@@ -1720,7 +1823,13 @@
 			"page": 201,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"cha"
+						]
+					},
 					"choose": {
 						"from": [
 							"con",
@@ -1764,7 +1873,13 @@
 			"page": 201,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"dex",
+							"wis",
+							"cha"
+						]
+					},
 					"choose": {
 						"from": [
 							"dex",
@@ -1808,7 +1923,13 @@
 			"page": 201,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"cha"
+						]
+					},
 					"choose": {
 						"from": [
 							"con",
@@ -1846,7 +1967,13 @@
 			"page": 200,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int"
+						]
+					},
 					"choose": {
 						"from": [
 							"str",
@@ -1953,7 +2080,13 @@
 			"page": 200,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"str",
+							"int",
+							"wis"
+						]
+					},
 					"choose": {
 						"from": [
 							"str",
@@ -1991,7 +2124,13 @@
 			"page": 200,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int"
+						]
+					},
 					"choose": {
 						"from": [
 							"dex",
@@ -2029,7 +2168,13 @@
 			"page": 79,
 			"ability": [
 				{
-					"int": 1,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int"
+						]
+					},
 					"choose": {
 						"from": [
 							"dex",
