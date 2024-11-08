@@ -1171,20 +1171,33 @@
 			"ability": [
 				{
 					"choose": {
-						"from": [
-							"str",
-							"con",
-							"wis"
-						]
-					},
+						"weighted": {
+							"from": [
+								"str",
+								"con",
+								"wis"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
 					"choose": {
-						"from": [
-							"str",
-							"con",
-							"wis"
-						],
-						"count": 1,
-						"amount": 2
+						"weighted": {
+							"from": [
+								"str",
+								"con",
+								"wis"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
 					}
 				}
 			],
