@@ -191,7 +191,7 @@
 							"dex",
 							"cha"
 						]
-					}
+					},
 					"choose": {
 						"from": [
 							"str",
@@ -248,7 +248,7 @@
 							"int",
 							"cha"
 						]
-					}
+					},
 					"choose": {
 						"from": [
 							"wis",
@@ -418,7 +418,7 @@
 							"wis",
 							"int"
 						]
-					}
+					},
 					"choose": {
 						"from": [
 							"con",
@@ -548,7 +548,7 @@
 							"dex",
 							"con"
 						]
-					}
+					},
 					"choose": {
 						"from": [
 							"str",
