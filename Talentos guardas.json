@@ -21,7 +21,7 @@
     },
     "feat": [
 {
-    "name": "Scion of the Outer Planes",
+    "name": "Scion of the Outer Planes [inicial]",
     "source": "Guarda",
     "page": 12,
     "ability": [
@@ -57,6 +57,7 @@
             }
         }
     ],
+				"category": "O",
     "resist": [
         {
             "choose": {
@@ -192,7 +193,7 @@
     ]
 },
         {
-			"name": "Squire of Solamnia",
+			"name": "Squire of Solamnia [inicial]",
 			"source": "Guarda",
 			"page": 34,
 			    "ability": [
@@ -228,6 +229,7 @@
             }
         }
     ],
+					"category": "O",
 			"entries": [
 				"Your training in the ways of the Knights of Solamnia grants you these benefits:",
 				{
@@ -260,7 +262,7 @@
 			]
 		},
 		{
-			"name": "Initiate of High Sorcery",
+			"name": "Initiate of High Sorcery [inicial]",
 			"source": "Guarda",
 			"page": 32,
 			    "ability": [
@@ -296,6 +298,7 @@
             }
         }
     ],
+			"category": "O",
 			"additionalSpells": [
 				{
 					"name": "Nuitari",
@@ -477,6 +480,7 @@
             }
         }
     ],
+		"category": "O",
 			"additionalSpells": [
 				{
 					"innate": {
@@ -582,7 +586,7 @@
 			]
         },
 		{
-			"name": "Strike of the Giants",
+			"name": "Strike of the Giants [inicial]",
 			"source": "Guarda",
 			"page": 19,
 			    "ability": [
@@ -618,6 +622,7 @@
             }
         }
     ],
+			"category": "O",
 			"entries": [
 				"You have absorbed primeval magic that gives you an echo of the might of giants. When you take this feat, choose one of the benefits listed below. Once per turn, when you hit a target with a melee weapon attack or a ranged weapon attack using a thrown weapon, you can imbue the attack with an additional effect depending on the benefit you chose:",
 				{
@@ -667,7 +672,7 @@
 			]
         },
 		{
-			"name": "Strixhaven Initiate",
+			"name": "Strixhaven Initiate [inicial]",
 			"source": "Guarda",
 			"page": 36,
     "ability": [
@@ -703,6 +708,7 @@
             }
         }
     ],
+			"category": "O",
 			"additionalSpells": [
 				{
 					"name": "Lorehold 1",
@@ -1159,7 +1165,7 @@
 			]
         },
 		{
-			"name": "Tough",
+			"name": "Tough [inicial]",
 			"source": "Guarda",
 			"page": 202,
 			"ability": [
@@ -1188,7 +1194,7 @@
 			]
         },
 			{
-			"name": "Tavern Brawler",
+			"name": "Tavern Brawler [inicial]",
 			"source": "Guarda",
 			"page": 170,
 			    "ability": [
@@ -1273,7 +1279,7 @@
 			]
         },
 			{
-			"name": "Skilled (Dex, con wis)",
+			"name": "Skilled (Dex, con wis) [inicial]",
 			"source": "Guarda",
 			"page": 201,
 			    "ability": [
@@ -1337,7 +1343,7 @@
 			]
 		},
 	    		{
-			"name": "Skilled (str, int, cha)",
+			"name": "Skilled (str, int, cha) [inicial]",
 			"source": "Guarda",
 			"page": 201,
 			    "ability": [
@@ -1401,7 +1407,7 @@
 			]
 		},  
 	    		{
-			"name": "Savage Attacker",
+			"name": "Savage Attacker [inicial]",
 			"source": "Guarda",
 			"page": 201,
 			    "ability": [
@@ -1444,7 +1450,7 @@
 			]
 		},
 	            {
-			"name": "Musician",
+			"name": "Musician [inicial]",
 			"source": "Guarda",
 			"page": 201,
 			    "ability": [
@@ -1505,7 +1511,7 @@
 			]
 		},
 	            {
-			"name": "Magic Initiate (wizard)",
+			"name": "Magic Initiate (wizard) [inicial]",
 			"source": "Guarda",
 			"page": 201,
 			    "ability": [
@@ -1549,9 +1555,7 @@
 					"name": "Wizard Spells",
 					"ability": {
 						"choose": [
-							"int",
-							"wis",
-							"cha"
+							"int"
 						]
 					},
 					"innate": {
@@ -1609,7 +1613,7 @@
 			"_versions": [
 
 				{
-					"name": "Magic Initiate; Wizard",
+					"name": "Magic Initiate; Wizard" [inicial],
 					"source": "XPHB",
 					"_mod": {
 						"entries": [
@@ -1619,7 +1623,7 @@
 								"items": {
 									"name": "Two Cantrips",
 									"entries": [
-										"You learn two cantrips of your choice from the {@filter Wizard|spells|level=0;1|class=Wizard} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat)."
+										"You learn two cantrips of your choice from the {@filter Wizard|spells|level=0;1|class=Wizard} spell list. Intelligence is your spellcasting ability for this feat's spells (choose when you select this feat)."
 									]
 								}
 							},
