@@ -34,22 +34,18 @@
                     }
                 }
             ],
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "from": [
-                            "insight",
-                            "religion",
-                            "persuasion",
-                            "medicine"
-                        ],
-                        "count": 2
-                    }
-                }
-            ],
             "toolProficiencies": [
                 {
                     "any": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "choose": {
+                        "from": "anyStandard",
+                        "count": 2
+                    }
                 }
             ],
             "entries": [
@@ -65,11 +61,6 @@
                     }
                 }
             ],
-            "hasFluff": true,
-            "hasFluffImages": true
-        }
-    ]
-}
             "hasFluff": true,
             "hasFluffImages": true
         }
