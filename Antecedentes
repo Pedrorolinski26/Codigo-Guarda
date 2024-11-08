@@ -33,7 +33,8 @@
             "skillProficiencies": [
                 {
                     "choose": {
-                        "from": ["insight", "religion", "persuasion", "medicine"]
+                        "from": ["insight", "religion", "persuasion", "medicine"],
+                        "count"; 2
                     }
                 }
             ],
@@ -43,11 +44,15 @@
                 }
             ],
             "languageProficiencies": [
-                {
-                    "anyStandard": 2,
-                    "specific": ["common"]
-                }
-            ],
+    {
+        "fixed": ["common"],
+        "choose": {
+            "from": "anyStandard",
+            "count": 2
+        }
+    }
+]
+
             "entries": [
                 {
                     "name": "Talento de antecedente: Refúgio ao fiel",
