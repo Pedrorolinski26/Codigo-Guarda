@@ -52,15 +52,6 @@
                     "any": true
                 }
             ],
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "choose": {
-                        "from": "anyStandard",
-                        "count": 2
-                    }
-                }
-            ],
             "entries": [
                 {
                     "name": "Talento de antecedente: Refúgio ao fiel",
