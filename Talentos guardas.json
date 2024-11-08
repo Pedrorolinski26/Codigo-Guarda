@@ -24,28 +24,30 @@
 			"name": "Scion of the Outer Planes",
 			"source": "Guarda",
 			"page": 12,
-            "ability": [
-				{
-					        "choose": {
-						"from": [
-							"wis",
-							"int",
-							"cha"
-						],
-						"count": 1,
-						"amount": 1
-                            },
-						"choose": {
-						"from": [
-							"wis",
-							"int",
-							"cha"
-						],
-						"count": 1,
-						"amount": 2
-					}
-                }
+                        "ability": [
+    {
+        "choose": {
+            "from": [
+                "wis",
+                "int",
+                "cha"
             ],
+            "count": 1,
+            "amount": 2
+        }
+    },
+    {
+        "choose": {
+            "from": [
+                "wis",
+                "int",
+                "cha"
+            ],
+            "count": 1,
+            "amount": 2
+        }
+    }
+],
 			"resist": [
 				{
 					"choose": {
