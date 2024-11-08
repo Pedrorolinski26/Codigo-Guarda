@@ -1,38 +1,252 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "Guarda",
-				"abbreviation": "GUARDA",
-				"full": "G.U.A.R.D.A de Tenebris",
-				"authors": [
-					"Mahakala"
-				],
-				"convertedBy": [
-					"Mahakala"
-				],
-				"version": "1.0"
-			}
-		],
-		"status": "ready",
-		"dateAdded": 1608050554,
-		"dateLastModified": 1695223566,
-		"_dateLastModifiedHash": "b6b795e6fb"
-	},
-	"feat": [
+    "_meta": {
+        "sources": [
+            {
+                "json": "Guarda",
+                "abbreviation": "GUARDA",
+                "full": "G.U.A.R.D.A de Tenebris",
+                "authors": [
+                    "Mahakala"
+                ],
+                "convertedBy": [
+                    "Mahakala"
+                ],
+                "version": "1.0"
+            }
+        ],
+        "status": "ready",
+        "dateAdded": 1608050554,
+        "dateLastModified": 1695223566,
+        "_dateLastModifiedHash": "b6b795e6fb"
+    },
+    "feat": [
         {
-			"name": "Scion of the Outer Planes",
+            "name": "Scion of the Outer Planes",
+            "source": "Guarda",
+            "page": 12,
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "wis",
+                            "int",
+                            "cha"
+                        ],
+                        "choose": {
+                            "from": [
+                                "wis",
+                                "int",
+                                "cha"
+                            ],
+                            "count": 1,
+                            "amount": 2
+                        }
+                    }
+                }
+            ],
+            "resist": [
+                {
+                    "choose": {
+                        "from": [
+                            "poison",
+                            "necrotic",
+                            "radiant",
+                            "force",
+                            "psychic"
+                        ]
+                    }
+                }
+            ],
+            "additionalSpells": [
+                {
+                    "name": "Chaotic Outer Plane",
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "_": [
+                            "minor illusion#c"
+                        ]
+                    }
+                },
+                {
+                    "name": "Evil Outer Plane",
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "_": [
+                            "chill touch#c"
+                        ]
+                    }
+                },
+                {
+                    "name": "Good Outer Plane",
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "_": [
+                            "sacred flame#c"
+                        ]
+                    }
+                },
+                {
+                    "name": "Lawful Outer Plane",
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "_": [
+                            "guidance#c"
+                        ]
+                    }
+                },
+                {
+                    "name": "The Outlands",
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "_": [
+                            "mage hand#c"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                "Your connection to an Outer Plane infuses you with the energy there. Choose a type of plane listed in the Planar Infusion table. Your choice gives you resistance to a damage type and the ability to cast a cantrip, as specified in the table. You can cast this cantrip without material components, and your spellcasting ability for it is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+                {
+                    "type": "table",
+                    "colStyles": [
+                        "col-4",
+                        "col-4",
+                        "col-4"
+                    ],
+                    "colLabels": [
+                        "Plane",
+                        "Damage Resistance",
+                        "Cantrip"
+                    ],
+                    "rows": [
+                        [
+                            "Chaotic Outer Plane",
+                            "Poison",
+                            "{@spell Minor illusion}"
+                        ],
+                        [
+                            "Evil Outer Plane",
+                            "Necrotic",
+                            "{@spell Chill touch}"
+                        ],
+                        [
+                            "Good Outer Plane",
+                            "Radiant",
+                            "{@spell Sacred flame}"
+                        ],
+                        [
+                            "Lawful Outer Plane",
+                            "Force",
+                            "{@spell Guidance}"
+                        ],
+                        [
+                            "The Outlands",
+                            "Psychic",
+                            "{@spell Mage hand}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+			"name": "Squire of Solamnia",
 			"source": "Guarda",
-			"page": 12,
+			"page": 34,
 			"ability": [
 				{
-					        "choose": {
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"cha"
+						]
+					},
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"cha"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"Your training in the ways of the Knights of Solamnia grants you these benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Mount Up",
+							"entries": [
+								"Mounting or dismounting costs you only 5 feet of movement."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Precise Strike",
+							"entries": [
+								"Once per turn, when you make a weapon attack roll against a creature, you can cause the attack roll to have advantage. If the attack hits, you roll a {@dice d8} and add the number rolled as a bonus to the attack's damage roll. You can use this benefit a number of times equal to your proficiency bonus, but a use is expended only if the attack hits. You regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Membership in Knightly Orders",
+					"entries": [
+						"Knights of Solamnia are only ever members of one of their organization's orders. In the course of their training, most knights begin as members of the Knights of the Crown and then move on to join other orders. Whether a character follows this path or another, they retain what they learned as a member of an order even if they join another. Characters can change what knightly order they're a part of, but they always have access to any Knight of Solamnia feats they've acquired."
+					]
+				}
+			]
+		},
+		{
+			"name": "Initiate of High Sorcery",
+			"source": "Guarda",
+			"page": 32,
+			"ability": [
+				{
+					"choose": {
 						"from": [
 							"wis",
 							"int",
 							"cha"
-						],
-						"choose": {
+						]
+					},
+					"choose": {
 						"from": [
 							"wis",
 							"int",
@@ -41,143 +255,873 @@
 						"count": 1,
 						"amount": 2
 					}
-                    }
-                    }
-
+				}
 			],
-			"resist": [
+			"additionalSpells": [
+				{
+					"name": "Nuitari",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard"
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"dissonant whispers",
+												"false life",
+												"hex",
+												"ray of sickness"
+											],
+											"count": 2
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Lunitari",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard"
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"color spray",
+												"disguise self",
+												"feather fall",
+												"longstrider"
+											],
+											"count": 2
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Solinari",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard"
+							}
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									{
+										"choose": {
+											"from": [
+												"comprehend languages",
+												"detect evil and good",
+												"protection from evil and good",
+												"shield"
+											],
+											"count": 2
+										}
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You've received training from magic-users affiliated with the Mages of High Sorcery.",
+				"Choose one of the three moons of Krynn to influence your magic: the black moon, Nuitari; the red moon, Lunitari; or the white moon, Solinari. You learn one cantrip of your choice from the wizard spell list and two 1st-level spells based on the moon you choose, as specified in the Lunar Spells table.",
+				{
+					"type": "table",
+					"caption": "Lunar Spells",
+					"colLabels": [
+						"Moon",
+						"1st-Level Spell"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Nuitari",
+							"Choose two from {@spell dissonant whispers}, {@spell false life}, {@spell hex}, and {@spell ray of sickness}"
+						],
+						[
+							"Lunitari",
+							"Choose two from {@spell color spray}, {@spell disguise self}, {@spell feather fall}, and {@spell longstrider}"
+						],
+						[
+							"Solinari",
+							"Choose two from {@spell comprehend languages}, {@spell detect evil and good}, {@spell protection from evil and good}, and {@spell shield}"
+						]
+					]
+				},
+				"You can cast each of the chosen 1st-level spells without a spell slot, and you must finish a long rest before you can cast them in this way again. You can also cast the spells using any spell slots you have.",
+				"Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat)."
+			],
+			"hasFluffImages": true
+        },
+        {
+			"name": "Rune Shaper",
+			"source": "Guarda",
+			"page": 18,
+			"ability": [
 				{
 					"choose": {
 						"from": [
-							"poison",
-							"necrotic",
-							"radiant",
-							"force",
-							"psychic"
+							"con",
+							"wis",
+							"int"
 						]
+					},
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"int"
+						],
+						"count": 1,
+						"amount": 2
 					}
 				}
 			],
 			"additionalSpells": [
 				{
-					"name": "Chaotic Outer Plane",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"minor illusion#c"
-						]
-					}
-				},
-				{
-					"name": "Evil Outer Plane",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"chill touch#c"
-						]
-					}
-				},
-				{
-					"name": "Good Outer Plane",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"sacred flame#c"
-						]
-					}
-				},
-				{
-					"name": "Lawful Outer Plane",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"guidance#c"
-						]
-					}
-				},
-				{
-					"name": "The Outlands",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"mage hand#c"
-						]
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"comprehend languages"
+								]
+							}
+						}
 					}
 				}
 			],
 			"entries": [
-				"Your connection to an Outer Plane infuses you with the energy there. Choose a type of plane listed in the Planar Infusion table. Your choice gives you resistance to a damage type and the ability to cast a cantrip, as specified in the table. You can cast this cantrip without material components, and your spellcasting ability for it is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+				"You've studied the magic of Giant runes, granting you the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Comprehend Languages",
+							"entries": [
+								"You learn the {@spell comprehend languages} spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Rune Magic",
+							"entries": [
+								"You know a number of runes equal to half your proficiency bonus (rounded down), chosen from the Rune Spells table. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn the 1st-level spells that correspond to the runes you inscribed, as specified on the Rune Spells table, and you know those spells until you finish a long rest, when the runes fade. While you are wearing or carrying any rune-marked object, you can cast the spells associated with those runes using any spell slots you have.",
+								"You can also invoke a rune inscribed on an object you are wearing or carrying and cast its associated spell without expending a spell slot or using material components. Once you cast the spell in this way, you can't do so again until you finish a long rest. Your spellcasting ability for this feat is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
+								"Each time you gain a level, you can replace one of the runes you know with another one from the Rune Spells table.",
+								{
+									"type": "table",
+									"colStyles": [
+										"col-2",
+										"col-10"
+									],
+									"colLabels": [
+										"Rune",
+										"Spell"
+									],
+									"rows": [
+										[
+											"Cloud",
+											"{@spell Fog cloud}"
+										],
+										[
+											"Death",
+											"{@spell Inflict wounds}"
+										],
+										[
+											"Dragon",
+											"{@spell Chromatic orb}"
+										],
+										[
+											"Enemy",
+											"{@spell Disguise self}"
+										],
+										[
+											"Fire",
+											"{@spell Burning hands}"
+										],
+										[
+											"Friend",
+											"{@spell Speak with animals}"
+										],
+										[
+											"Frost",
+											"{@spell Armor of Agathys}"
+										],
+										[
+											"Hill",
+											"{@spell Goodberry}"
+										],
+										[
+											"Journey",
+											"{@spell Longstrider}"
+										],
+										[
+											"King",
+											"{@spell Command}"
+										],
+										[
+											"Mountain",
+											"{@spell Entangle}"
+										],
+										[
+											"Stone",
+											"{@spell Sanctuary}"
+										],
+										[
+											"Storm",
+											"{@spell Thunderwave}"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+        },
+		{
+			"name": "Strike of the Giants",
+			"source": "Guarda",
+			"page": 19,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						]
+					},
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"ability": [
+				{
+					"int": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"entries": [
+				"You have absorbed primeval magic that gives you an echo of the might of giants. When you take this feat, choose one of the benefits listed below. Once per turn, when you hit a target with a melee weapon attack or a ranged weapon attack using a thrown weapon, you can imbue the attack with an additional effect depending on the benefit you chose:",
+				{
+					"type": "entries",
+					"name": "Cloud Strike",
+					"entries": [
+						"The target takes an extra {@damage 1d4} thunder damage. If the target is a creature, it must succeed on a Wisdom saving throw, or you become invisible to it until the start of your next turn or until immediately after you make an attack roll or cast a spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fire Strike",
+					"entries": [
+						"The target takes an extra {@damage 1d10} fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frost Strike",
+					"entries": [
+						"The target takes an extra {@damage 1d6} cold damage. If the target is a creature, it must succeed on a Constitution saving throw, or its speed is reduced to 0 until the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hill Strike",
+					"entries": [
+						"The target takes an extra {@damage 1d6} damage of the weapon's type. If the target is a creature, it must succeed on a Strength saving throw or have the prone condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stone Strike",
+					"entries": [
+						"The target takes an extra {@damage 1d6} force damage. If the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet from you in a straight line."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Storm Strike",
+					"entries": [
+						"The target takes an extra {@damage 1d6} lightning damage. If the target is a creature, it must succeed on a Constitution saving throw, or it has disadvantage on attack rolls until the start of your next turn.",
+						"The saving throw DC for these effects equals 8 + your proficiency bonus + your Strength or Constitution modifier.",
+						"You can use this feat a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			]
+        },
+		{
+			"name": "Strixhaven Initiate",
+			"source": "Guarda",
+			"page": 36,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"int",
+							"cha"
+						]
+					},
+					"choose": {
+						"from": [
+							"wis",
+							"int",
+							"cha"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"name": "Lorehold 1",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"light#c",
+							"sacred flame#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=cleric;wizard"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Lorehold 2",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"light#c",
+							"thaumaturgy#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=cleric;wizard"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Lorehold 3",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"sacred flame#c",
+							"thaumaturgy#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=cleric;wizard"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Prismari 1",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"fire bolt#c",
+							"prestidigitation#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=bard;sorcerer"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Prismari 2",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"fire bolt#c",
+							"ray of frost#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=bard;sorcerer"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Prismari 3",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"prestidigitation#c",
+							"ray of frost#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=bard;sorcerer"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Quandrix 1",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"druidcraft#c",
+							"guidance#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=druid;wizard"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Quandrix 2",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"druidcraft#c",
+							"mage hand#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=druid;wizard"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Quandrix 3",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"guidance#c",
+							"mage hand#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=druid;wizard"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Silverquill 1",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"sacred flame#c",
+							"thaumaturgy#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=bard;cleric"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Silverquill 2",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"sacred flame#c",
+							"vicious mockery#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=bard;cleric"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Silverquill 3",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"thaumaturgy#c",
+							"vicious mockery#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=bard;cleric"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Witherbloom 1",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"chill touch#c",
+							"druidcraft#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=druid;wizard"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Witherbloom 2",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"chill touch#c",
+							"spare the dying#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=druid;wizard"
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Witherbloom 3",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"druidcraft#c",
+							"spare the dying#c"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=druid;wizard"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"You have studied some magical theory and have learned a few spells associated with Strixhaven University.",
+				"Choose one of Strixhaven's colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.",
+				"You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
+				"Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
 				{
 					"type": "table",
-					"colStyles": [
-						"col-4",
-						"col-4",
-						"col-4"
-					],
+					"caption": "Strixhaven Spells",
 					"colLabels": [
-						"Plane",
-						"Damage Resistance",
-						"Cantrip"
+						"College",
+						"Cantrips",
+						"1st-Level Spell"
+					],
+					"colStyles": [
+						"col-2",
+						"col-5",
+						"col-5"
 					],
 					"rows": [
 						[
-							"Chaotic Outer Plane",
-							"Poison",
-							"{@spell Minor illusion}"
+							"Lorehold",
+							"Choose two from {@spell light}, {@spell sacred flame}, and {@spell thaumaturgy}.",
+							"Choose one 1st-level {@filter cleric or wizard spell|spells|level=1|class=cleric;wizard}."
 						],
 						[
-							"Evil Outer Plane",
-							"Necrotic",
-							"{@spell Chill touch}"
+							"Prismari",
+							"Choose two from {@spell fire bolt}, {@spell prestidigitation}, and {@spell ray of frost}.",
+							"Choose one 1st-level {@filter bard or sorcerer spell|spells|level=1|class=bard;sorcerer}."
 						],
 						[
-							"Good Outer Plane",
-							"Radiant",
-							"{@spell Sacred flame}"
+							"Quandrix",
+							"Choose two from {@spell druidcraft}, {@spell guidance}, and {@spell mage hand}.",
+							"Choose one 1st-level {@filter druid or wizard spell|spells|level=1|class=druid;wizard}."
 						],
 						[
-							"Lawful Outer Plane",
-							"Force",
-							"{@spell Guidance}"
+							"Silverquill",
+							"Choose two from {@spell sacred flame}, {@spell thaumaturgy}, and {@spell vicious mockery}.",
+							"Choose one 1st-level {@filter bard or cleric spell|spells|level=1|class=bard;cleric}."
 						],
 						[
-							"The Outlands",
-							"Psychic",
-							"{@spell Mage hand}"
+							"Witherbloom",
+							"Choose two from {@spell chill touch}, {@spell druidcraft}, and {@spell spare the dying}.",
+							"Choose one 1st-level {@filter druid or wizard spell|spells|level=1|class=druid;wizard}."
 						]
 					]
 				}
 			]
-		}
-	]
+        },
+		{
+			"name": "Tough",
+			"source": "Guarda",
+			"page": 202,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						]
+					},
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"wis"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"category": "O",
+			"entries": [
+				"Your Hit Point maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points."
+			]
+        },
+    ]
 }
