@@ -195,26 +195,39 @@
 			"name": "Squire of Solamnia",
 			"source": "Guarda",
 			"page": 34,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"cha"
-						]
-					},
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"cha"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "cha"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "cha"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"entries": [
 				"Your training in the ways of the Knights of Solamnia grants you these benefits:",
 				{
@@ -250,26 +263,39 @@
 			"name": "Initiate of High Sorcery",
 			"source": "Guarda",
 			"page": 32,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"wis",
-							"int",
-							"cha"
-						]
-					},
-					"choose": {
-						"from": [
-							"wis",
-							"int",
-							"cha"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "int",
+                        "wis",
+                        "cha"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "int",
+                        "wis",
+                        "cha"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"additionalSpells": [
 				{
 					"name": "Nuitari",
@@ -418,26 +444,39 @@
 			"name": "Rune Shaper",
 			"source": "Guarda",
 			"page": 18,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"con",
-							"wis",
-							"int"
-						]
-					},
-					"choose": {
-						"from": [
-							"con",
-							"wis",
-							"int"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "con",
+                        "wis",
+                        "int"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "con",
+                        "wis",
+                        "int"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"additionalSpells": [
 				{
 					"innate": {
@@ -546,40 +585,39 @@
 			"name": "Strike of the Giants",
 			"source": "Guarda",
 			"page": 19,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con"
-						]
-					},
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
-			"ability": [
-				{
-					"int": 1,
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "con"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "con"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"entries": [
 				"You have absorbed primeval magic that gives you an echo of the might of giants. When you take this feat, choose one of the benefits listed below. Once per turn, when you hit a target with a melee weapon attack or a ranged weapon attack using a thrown weapon, you can imbue the attack with an additional effect depending on the benefit you chose:",
 				{
@@ -632,26 +670,39 @@
 			"name": "Strixhaven Initiate",
 			"source": "Guarda",
 			"page": 36,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"wis",
-							"int",
-							"cha"
-						]
-					},
-					"choose": {
-						"from": [
-							"wis",
-							"int",
-							"cha"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "int",
+                        "wis",
+                        "cha"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "int",
+                        "wis",
+                        "cha"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"additionalSpells": [
 				{
 					"name": "Lorehold 1",
@@ -1140,40 +1191,75 @@
 			"name": "Tavern Brawler",
 			"source": "Guarda",
 			"page": 170,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"wis"
-						]
-					},
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"wis"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "wis"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "wis"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"reprintedAs": [
 				"Tavern Brawler|XPHB"
 			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"con"
-						],
-						"amount": 1
-					}
-				}
-			],
+    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "wis"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "wis"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"entries": [
 				"Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:",
 				{
@@ -1190,26 +1276,39 @@
 			"name": "Skilled (Dex, con wis)",
 			"source": "Guarda",
 			"page": 201,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"dex",
-							"con",
-							"wis"
-						]
-					},
-					"choose": {
-						"from": [
-							"dex",
-							"con",
-							"wis"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "dex",
+                        "con",
+                        "wis"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "dex",
+                        "con",
+                        "wis"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"freeRules2024": true,
 			"category": "O",
 			"repeatable": true,
@@ -1241,26 +1340,39 @@
 			"name": "Skilled (str, int, cha)",
 			"source": "Guarda",
 			"page": 201,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"int",
-							"cha"
-						]
-					},
-					"choose": {
-						"from": [
-							"str",
-							"int",
-							"cha"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "int",
+                        "cha"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "int",
+                        "cha"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"freeRules2024": true,
 			"category": "O",
 			"repeatable": true,
@@ -1292,26 +1404,39 @@
 			"name": "Savage Attacker",
 			"source": "Guarda",
 			"page": 201,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con"
-						]
-					},
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "con"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "con"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"freeRules2024": true,
 			"category": "O",
 			"entries": [
@@ -1322,26 +1447,39 @@
 			"name": "Musician",
 			"source": "Guarda",
 			"page": 201,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"cha"
-						]
-					},
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"cha"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "cha"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "cha"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"category": "O",
 			"toolProficiencies": [
 				{
@@ -1370,26 +1508,39 @@
 			"name": "Magic Initiate (wizard)",
 			"source": "Guarda",
 			"page": 201,
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"con",
-							"wis",
-							"int"
-						]
-					},
-					"choose": {
-						"from": [
-							"con",
-							"wis",
-							"int"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
+			    "ability": [
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "con",
+                        "wis",
+                        "int"
+                    ],
+                    "weights": [
+                        2,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "choose": {
+                "weighted": {
+                    "from": [
+                        "con",
+                        "wis",
+                        "int"
+                    ],
+                    "weights": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        }
+    ],
 			"freeRules2024": true,
 			"category": "O",
 			"repeatable": true,
