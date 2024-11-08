@@ -54,9 +54,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "fixed": [
-                        "common"
-                    ],
+                    "common": true,
                     "choose": {
                         "from": "anyStandard",
                         "count": 2
