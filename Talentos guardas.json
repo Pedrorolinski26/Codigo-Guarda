@@ -240,8 +240,6 @@
 			"page": 32,
 			"ability": [
 				{
-			"ability": [
-				{
 					"choose": {
 						"from": [
 							"wis",
@@ -410,8 +408,6 @@
 			"page": 18,
 			"ability": [
 				{
-			"ability": [
-				{
 					"choose": {
 						"from": [
 							"con",
@@ -540,8 +536,6 @@
 			"page": 19,
 			"ability": [
 				{
-			"ability": [
-				{
 					"choose": {
 						"from": [
 							"str",
@@ -626,8 +620,6 @@
 			"name": "Strixhaven Initiate",
 			"source": "Guarda",
 			"page": 36,
-			"ability": [
-				{
 			"ability": [
 				{
 					"choose": {
@@ -1109,8 +1101,6 @@
 			"page": 202,
 			"ability": [
 				{
-			"ability": [
-				{
 					"choose": {
 						"from": [
 							"str",
@@ -1138,8 +1128,6 @@
 			"name": "Tavern Brawler",
 			"source": "Guarda",
 			"page": 170,
-			"ability": [
-				{
 			"ability": [
 				{
 					"choose": {
