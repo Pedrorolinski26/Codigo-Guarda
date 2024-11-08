@@ -1581,7 +1581,7 @@
 					"type": "entries",
 					"name": "Two Cantrips",
 					"entries": [
-						"You learn two cantrips of your choice from the {@filter Wizard|spells|level=0;1|class=Wizard} spell list. Intelligence is your spellcasting ability for this feat's spells."
+						"You learn two cantrips of your choice from the {@filter Wizard|spells|level=0;1|class=Wizard} spell list. spell list choose Wisdom, inteligence or charisma is your spellcasting ability for this feat's spells."
 					]
 				},
 				{
@@ -1639,7 +1639,9 @@
 						{
 							"ability": {
 								"choose": [
-									"int"
+									"int",
+									"wis",
+									"cha"
 								]
 							},
 							"innate": {
@@ -1662,6 +1664,799 @@
 								]
 							}
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Initiate (Druid) [Inicial]",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"con",
+								"wis"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"con",
+								"wis"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"freeRules2024": true,
+			"category": "O",
+			"repeatable": true,
+			"additionalSpells": [
+				{
+					"name": "Druid Spells",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Druid"
+									}
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Druid",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Two Cantrips",
+					"entries": [
+						"You learn two cantrips of your choice from the, {@filter Druid|spells|level=0;1|class=Druid} spell list choose Wisdom, inteligence or charisma is your spellcasting ability for this feat's spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 1 Spell",
+					"entries": [
+						"Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Change",
+					"entries": [
+						"Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Repeatable",
+					"entries": [
+						"You can take this feat more than once, but you must choose a different spell list each time."
+					]
+				}
+			],
+			"_versions": [
+				{
+					"name": "Magic Initiate; Druid",
+					"source": "XPHB",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Two Cantrips",
+								"items": {
+									"name": "Two Cantrips",
+									"entries": [
+										"You learn two cantrips of your choice from the {@filter Druid|spells|level=0;1|class=Druid} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat)."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Level 1 Spell",
+								"items": {
+									"name": "Level 1 Spell",
+									"entries": [
+										"Choose a level 1 spell from the {@filter Druid|spells|level=0;1|class=Druid} spell list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+									]
+								}
+							}
+						]
+					},
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"innate": {
+								"_": {
+									"daily": {
+										"1": [
+											{
+												"choose": "level=1|class=Druid"
+											}
+										]
+									}
+								}
+							},
+							"known": {
+								"_": [
+									{
+										"choose": "level=0|class=Druid",
+										"count": 2
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Initiate (Cleric) [Inicial]",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Two Cantrips",
+					"entries": [
+						"You learn two cantrips of your choice from the {@filter Cleric|spells|level=0;1|class=Cleric}. Wisdom is your spellcasting ability for this feat's spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 1 Spell",
+					"entries": [
+						"Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Change",
+					"entries": [
+						"Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Repeatable",
+					"entries": [
+						"You can take this feat more than once, but you must choose a different spell list each time."
+					]
+				}
+			],
+			"_versions": [
+				{
+					"name": "Magic Initiate; Cleric [Inicial]",
+					"source": "XPHB",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Two Cantrips",
+								"items": {
+									"name": "Two Cantrips",
+									"entries": [
+										"You learn two cantrips of your choice from the {@filter Cleric|spells|level=0;1|class=Cleric} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat)."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Level 1 Spell",
+								"items": {
+									"name": "Level 1 Spell",
+									"entries": [
+										"Choose a level 1 spell from the {@filter Cleric|spells|level=0;1|class=Cleric} spell list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+									]
+								}
+							}
+						]
+					},
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"innate": {
+								"_": {
+									"daily": {
+										"1": [
+											{
+												"choose": "level=1|class=Cleric"
+											}
+										]
+									}
+								}
+							},
+							"known": {
+								"_": [
+									{
+										"choose": "level=0|class=Cleric",
+										"count": 2
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Lucky (Con, Int, Cha) [Inicial]",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"con",
+								"int",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"con",
+								"int",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"category": "O",
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Luck Points",
+					"entries": [
+						"You have a number of Luck Points equal to your Proficiency Bonus and can spend the points on the benefits below. You regain your expended Luck Points when you finish a Long Rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Advantage",
+					"entries": [
+						"When you roll a {@dice d20} for a {@variantrule D20 Test|XPHB}, you can spend 1 Luck Point to give yourself Advantage on the roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Disadvantage",
+					"entries": [
+						"When a creature rolls a {@dice d20} for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll."
+					]
+				}
+			]
+		},
+        {
+			"name": "Lucky (dex, wis, cha) [Inicial]",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"category": "O",
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Luck Points",
+					"entries": [
+						"You have a number of Luck Points equal to your Proficiency Bonus and can spend the points on the benefits below. You regain your expended Luck Points when you finish a Long Rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Advantage",
+					"entries": [
+						"When you roll a {@dice d20} for a {@variantrule D20 Test|XPHB}, you can spend 1 Luck Point to give yourself Advantage on the roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Disadvantage",
+					"entries": [
+						"When a creature rolls a {@dice d20} for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll."
+					]
+				}
+			]
+		},
+        {
+			"name": "Healer [Inicial]",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"con",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"con",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"category": "O",
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Battle Medic",
+					"entries": [
+						"If you have a Healer's Kit, you can expend one use of it and tend to a creature within 5 feet of yourself as a {@action Utilize|XPHB} action. That creature can expend one of its Hit Point Dice, and you then roll that die. The creature regains a number of Hit Points equal to the roll plus your Proficiency Bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Healing Rerolls",
+					"entries": [
+						"Whenever you roll a die to determine the number of Hit Points you restore with a spell or with this feat's Battle Medic benefit, you can reroll the die if it rolls a 1, and you must use the new roll."
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+        {
+			"name": "Crafter [Inicial]",
+			"source": "Guarda",
+			"page": 200,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"int"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"int"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"category": "O",
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"carpenter's tools",
+							"leatherworker's tools",
+							"mason's tools",
+							"potter's tools",
+							"smith's tools",
+							"tinker's tools",
+							"weaver's tools",
+							"woodcarver's tools"
+						],
+						"count": 3
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Tool Proficiency",
+					"entries": [
+						"You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Discount",
+					"entries": [
+						"Whenever you buy a nonmagical item, you receive a 20 percent discount on it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fast Crafting",
+					"entries": [
+						"When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.",
+						{
+							"type": "table",
+							"caption": "Fast Crafting",
+							"colStyles": [
+								"col-3",
+								"col-9"
+							],
+							"colLabels": [
+								"Artisan's Tools",
+								"Crafted Gear"
+							],
+							"rows": [
+								[
+									"{@item Carpenter's Tools|XPHB}",
+									"{@item Ladder|XPHB}, {@item Torch|XPHB}"
+								],
+								[
+									"{@item Leatherworker's Tools|XPHB}",
+									"{@item Crossbow Bolt Case|XPHB}, {@item Map or Scroll Case|XPHB}, {@item Pouch|XPHB}"
+								],
+								[
+									"{@item Mason's Tools|XPHB}",
+									"{@item Block and Tackle|XPHB}"
+								],
+								[
+									"{@item Potter's Tools|XPHB}",
+									"{@item Jug|XPHB}, {@item Lamp|XPHB}"
+								],
+								[
+									"{@item Smith's Tools|XPHB}",
+									"{@item Ball Bearings|XPHB}, {@item Bucket|XPHB}, {@item Caltrops|XPHB}, {@item Grappling Hook|XPHB}, {@item Iron Pot|XPHB}"
+								],
+								[
+									"{@item Tinker's Tools|XPHB}",
+									"{@item Bell|XPHB}, {@item Shovel|XPHB}, {@item Tinderbox|XPHB}"
+								],
+								[
+									"{@item Weaver's Tools|XPHB}",
+									"{@item Basket|XPHB}, {@item Rope|XPHB}, {@item Net|XPHB}, {@item Tent|XPHB}"
+								],
+								[
+									"{@item Woodcarver's Tools|XPHB}",
+									"{@item Club|XPHB}, {@item Greatclub|XPHB}, {@item Quarterstaff|XPHB}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Alert (Str, dex, int) [Inicial]",
+			"source": "Guarda",
+			"page": 200,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"int",
+								"wis"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"int",
+								"wis"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"freeRules2024": true,
+			"category": "O",
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Initiative Proficiency",
+					"entries": [
+						"When you roll Initiative, you can add your Proficiency Bonus to the roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Initiative Swap",
+					"entries": [
+						"Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the {@condition Incapacitated|XPHB} condition."
+					]
+				}
+			]
+		},
+        {
+			"name": "Alert (dex, con, int) [Inicial]",
+			"source": "Guarda",
+			"page": 200,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"con",
+								"int"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"con",
+								"int"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"freeRules2024": true,
+			"category": "O",
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Initiative Proficiency",
+					"entries": [
+						"When you roll Initiative, you can add your Proficiency Bonus to the roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Initiative Swap",
+					"entries": [
+						"Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the {@condition Incapacitated|XPHB} condition."
+					]
+				}
+			]
+		},
+        {
+			"name": "Artificer Initiate [Inicial]",
+			"source": "Guarda",
+			"page": 79,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"con",
+								"int"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"dex",
+								"con",
+								"int"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"category": "O",
+			"toolProficiencies": [
+				{
+					"anyArtisansTool": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Artificer"
+									}
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Artificer"
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You've learned some of an artificer's inventiveness:",
+				{
+					"type": "list",
+					"items": [
+						"You learn one cantrip of your choice from the {@filter artificer spell list|spells|level=0;1|class=artificer}, and you learn one 1st-level spell of your choice from {@filter that list|spells|level=0;1|class=artificer}. Intelligence is your spellcasting ability for these spells.",
+						"You can cast this feat's 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
+						"You gain proficiency with one type of {@filter artisan's tools|items|type=artisan's tools} of your choice, and you can use that type of tool as a spellcasting focus for any spell you cast that uses Intelligence as its spellcasting ability."
 					]
 				}
 			]
