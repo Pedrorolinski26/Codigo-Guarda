@@ -22,7 +22,7 @@
 	"feat": [
         {
 			"name": "Scion of the Outer Planes",
-			"source": "SatO",
+			"source": "Guarda",
 			"page": 12,
 			"ability": [
 				{
@@ -174,7 +174,7 @@
 		},
         {
 			"name": "Squire of Solamnia",
-			"source": "DSotDQ",
+			"source": "Guarda",
 			"page": 34,
 			"ability": [
 				{
@@ -223,7 +223,7 @@
 		},
 		{
 			"name": "Initiate of High Sorcery",
-			"source": "DSotDQ",
+			"source": "Guarda",
 			"page": 32,
 			"ability": [
 				{
@@ -385,7 +385,7 @@
 		},
         {
 			"name": "Rune Shaper",
-			"source": "BGG",
+			"source": "Guarda",
 			"page": 18,
 			"ability": [
 				{
@@ -507,7 +507,7 @@
         },
 		{
 			"name": "Strike of the Giants",
-			"source": "BGG",
+			"source": "Guarda",
 			"page": 19,
 			"ability": [
 				{
@@ -587,7 +587,7 @@
 		},            
 		{
 			"name": "Strixhaven Initiate",
-			"source": "SCC",
+			"source": "Guarda",
 			"page": 36,
 			"ability": [
 				{
@@ -1060,7 +1060,7 @@
 		},
 		{
 			"name": "Tough",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 202,
 			"ability": [
 				{
@@ -1083,7 +1083,7 @@
 		},    
 		{
 			"name": "Tavern Brawler",
-			"source": "PHB",
+			"source": "Guarda",
 			"page": 170,
 			"ability": [
 				{
@@ -1127,7 +1127,7 @@
 		},    
 		{
 			"name": "Skilled (Dex, con wis)",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 201,
 			"ability": [
 				{
@@ -1172,7 +1172,7 @@
 		},    
 		{
 			"name": "Skilled (str, int, cha)",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 201,
 			"ability": [
 				{
@@ -1217,7 +1217,7 @@
 		},    
 		{
 			"name": "Savage Attacker",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 201,
 			"ability": [
 				{
@@ -1241,7 +1241,7 @@
 		},
         {
 			"name": "Musician",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 201,
 			"ability": [
 				{
@@ -1283,7 +1283,7 @@
 		},
         {
 			"name": "Magic Initiate (wizard)",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 201,
 			"ability": [
 				{
@@ -1428,7 +1428,7 @@
 		},
         {
 			"name": "Magic Initiate (Druid)",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 201,
 			"ability": [
 				{
@@ -1572,7 +1572,7 @@
 		},
         {
 			"name": "Magic Initiate (Cleric)",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 201,
 			"ability": [
 				{
@@ -1716,7 +1716,7 @@
 		},
         {
 			"name": "Lucky (Con, Int, Cha)",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 201,
 			"ability": [
 				{
@@ -1760,7 +1760,7 @@
 		},
         {
 			"name": "Lucky (dex, wis, cha)",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 201,
 			"ability": [
 				{
@@ -1804,7 +1804,7 @@
 		},
         {
 			"name": "Healer",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 201,
 			"ability": [
 				{
@@ -1842,7 +1842,7 @@
 		},
         {
 			"name": "Crafter",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 200,
 			"ability": [
 				{
@@ -1949,7 +1949,7 @@
 		},
         {
 			"name": "Alert (Str, dex, int)",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 200,
 			"ability": [
 				{
@@ -1987,7 +1987,7 @@
 		},
         {
 			"name": "Alert (dex, con, int)",
-			"source": "XPHB",
+			"source": "Guarda",
 			"page": 200,
 			"ability": [
 				{
@@ -2025,7 +2025,7 @@
 		},
         {
 			"name": "Artificer Initiate",
-			"source": "TCE",
+			"source": "Guarda",
 			"page": 79,
 			"ability": [
 				{
