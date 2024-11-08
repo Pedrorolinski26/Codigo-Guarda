@@ -5,12 +5,8 @@
                 "json": "Guarda",
                 "abbreviation": "GUARDA",
                 "full": "G.U.A.R.D.A de Tenebris",
-                "authors": [
-                    "Mahakala"
-                ],
-                "convertedBy": [
-                    "Mahakala"
-                ],
+                "authors": ["Mahakala"],
+                "convertedBy": ["Mahakala"],
                 "version": "1.0"
             }
         ],
@@ -34,6 +30,14 @@
                     }
                 }
             ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": ["insight", "religion", "persuasion", "medicine"],
+                        "count": 2
+                    }
+                }
+            ],
             "toolProficiencies": [
                 {
                     "any": true
@@ -41,7 +45,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "common": true,
+                    "fixed": ["common"],
                     "choose": {
                         "from": "anyStandard",
                         "count": 2
