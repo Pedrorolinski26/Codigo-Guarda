@@ -1122,6 +1122,687 @@
 			"entries": [
 				"Your Hit Point maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points."
 			]
-        }
+        },
+			{
+			"name": "Tavern Brawler",
+			"source": "Guarda",
+			"page": 170,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"wis"
+						]
+					},
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"wis"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"reprintedAs": [
+				"Tavern Brawler|XPHB"
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are proficient with improvised weapons.",
+						"Your unarmed strike uses a {@damage d4} for damage.",
+						"When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target."
+					]
+				}
+			]
+        },
+			{
+			"name": "Skilled (Dex, con wis)",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						]
+					},
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"freeRules2024": true,
+			"category": "O",
+			"repeatable": true,
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool"
+							],
+							"count": 3
+						}
+					]
+				}
+			],
+			"entries": [
+				"You gain proficiency in any combination of three {@table Skill List; Skills|XPHB|skills} or {@filter tools|items|type=tools;artisan's tools;instrument;gaming set;vehicle (land);vehicle (water)} of your choice.",
+				{
+					"type": "entries",
+					"name": "Repeatable",
+					"entries": [
+						"You can take this feat more than once."
+					]
+				}
+			]
+		},
+	    		{
+			"name": "Skilled (str, int, cha)",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"int",
+							"cha"
+						]
+					},
+					"choose": {
+						"from": [
+							"str",
+							"int",
+							"cha"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"freeRules2024": true,
+			"category": "O",
+			"repeatable": true,
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool"
+							],
+							"count": 3
+						}
+					]
+				}
+			],
+			"entries": [
+				"You gain proficiency in any combination of three {@table Skill List; Skills|XPHB|skills} or {@filter tools|items|type=tools;artisan's tools;instrument;gaming set;vehicle (land);vehicle (water)} of your choice.",
+				{
+					"type": "entries",
+					"name": "Repeatable",
+					"entries": [
+						"You can take this feat more than once."
+					]
+				}
+			]
+		},  
+	    		{
+			"name": "Savage Attacker",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						]
+					},
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"freeRules2024": true,
+			"category": "O",
+			"entries": [
+				"You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target."
+			]
+		},
+	            {
+			"name": "Musician",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"cha"
+						]
+					},
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"cha"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"category": "O",
+			"toolProficiencies": [
+				{
+					"anyMusicalInstrument": 3
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Instrument Training",
+					"entries": [
+						"You gain proficiency with three Musical Instruments of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Encouraging Song",
+					"entries": [
+						"As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus."
+					]
+				}
+			]
+		},
+	            {
+			"name": "Magic Initiate (wizard)",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"int"
+						]
+					},
+					"choose": {
+						"from": [
+							"con",
+							"wis",
+							"int"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"freeRules2024": true,
+			"category": "O",
+			"repeatable": true,
+			"additionalSpells": [
+				{
+					"name": "Wizard Spells",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Wizard"
+									}
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Two Cantrips",
+					"entries": [
+						"You learn two cantrips of your choice from the {@filter Wizard|spells|level=0;1|class=Wizard} spell list. Intelligence is your spellcasting ability for this feat's spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 1 Spell",
+					"entries": [
+						"Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Change",
+					"entries": [
+						"Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Repeatable",
+					"entries": [
+						"You can take this feat more than once, but you must choose a different spell list each time."
+					]
+				}
+			],
+			"_versions": [
+
+				{
+					"name": "Magic Initiate; Wizard",
+					"source": "XPHB",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Two Cantrips",
+								"items": {
+									"name": "Two Cantrips",
+									"entries": [
+										"You learn two cantrips of your choice from the {@filter Wizard|spells|level=0;1|class=Wizard} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat)."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Level 1 Spell",
+								"items": {
+									"name": "Level 1 Spell",
+									"entries": [
+										"Choose a level 1 spell from the {@filter Wizard|spells|level=0;1|class=Wizard} spell list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+									]
+								}
+							}
+						]
+					},
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"innate": {
+								"_": {
+									"daily": {
+										"1": [
+											{
+												"choose": "level=1|class=Wizard"
+											}
+										]
+									}
+								}
+							},
+							"known": {
+								"_": [
+									{
+										"choose": "level=0|class=Wizard",
+										"count": 2
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+	            {
+			"name": "Magic Initiate (Druid)",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						]
+					},
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"freeRules2024": true,
+			"category": "O",
+			"repeatable": true,
+			"additionalSpells": [
+				{
+					"name": "Druid Spells",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Druid"
+									}
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Druid",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Two Cantrips",
+					"entries": [
+						"You learn two cantrips of your choice from the, {@filter Druid|spells|level=0;1|class=Druid} spell list Wisdom is your spellcasting ability for this feat's spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 1 Spell",
+					"entries": [
+						"Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Change",
+					"entries": [
+						"Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Repeatable",
+					"entries": [
+						"You can take this feat more than once, but you must choose a different spell list each time."
+					]
+				}
+			],
+			"_versions": [
+				{
+					"name": "Magic Initiate; Druid",
+					"source": "XPHB",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Two Cantrips",
+								"items": {
+									"name": "Two Cantrips",
+									"entries": [
+										"You learn two cantrips of your choice from the {@filter Druid|spells|level=0;1|class=Druid} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat)."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Level 1 Spell",
+								"items": {
+									"name": "Level 1 Spell",
+									"entries": [
+										"Choose a level 1 spell from the {@filter Druid|spells|level=0;1|class=Druid} spell list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+									]
+								}
+							}
+						]
+					},
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"innate": {
+								"_": {
+									"daily": {
+										"1": [
+											{
+												"choose": "level=1|class=Druid"
+											}
+										]
+									}
+								}
+							},
+							"known": {
+								"_": [
+									{
+										"choose": "level=0|class=Druid",
+										"count": 2
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Magic Initiate (Cleric)",
+			"source": "Guarda",
+			"page": 201,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1,
+						"amount": 2
+					}
+				}
+			],
+			"freeRules2024": true,
+			"category": "O",
+			"repeatable": true,
+			"additionalSpells": [
+				{
+					"name": "Cleric Spells",
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									{
+										"choose": "level=1|class=Cleric"
+									}
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Two Cantrips",
+					"entries": [
+						"You learn two cantrips of your choice from the {@filter Cleric|spells|level=0;1|class=Cleric}. Wisdom is your spellcasting ability for this feat's spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Level 1 Spell",
+					"entries": [
+						"Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Change",
+					"entries": [
+						"Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Repeatable",
+					"entries": [
+						"You can take this feat more than once, but you must choose a different spell list each time."
+					]
+				}
+			],
+			"_versions": [
+				{
+					"name": "Magic Initiate; Cleric",
+					"source": "XPHB",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Two Cantrips",
+								"items": {
+									"name": "Two Cantrips",
+									"entries": [
+										"You learn two cantrips of your choice from the {@filter Cleric|spells|level=0;1|class=Cleric} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat)."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Level 1 Spell",
+								"items": {
+									"name": "Level 1 Spell",
+									"entries": [
+										"Choose a level 1 spell from the {@filter Cleric|spells|level=0;1|class=Cleric} spell list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have."
+									]
+								}
+							}
+						]
+					},
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"innate": {
+								"_": {
+									"daily": {
+										"1": [
+											{
+												"choose": "level=1|class=Cleric"
+											}
+										]
+									}
+								}
+							},
+							"known": {
+								"_": [
+									{
+										"choose": "level=0|class=Cleric",
+										"count": 2
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
     ]
 }
