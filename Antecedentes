@@ -1,0 +1,68 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Guarda",
+                "abbreviation": "GUARDA",
+                "full": "G.U.A.R.D.A de Tenebris",
+                "authors": ["Mahakala"],
+                "convertedBy": ["Mahakala"],
+                "version": "1.0"
+            }
+        ],
+        "status": "ready",
+        "dateAdded": 1608050554,
+        "dateLastModified": 1695223566,
+        "_dateLastModifiedHash": "b6b795e6fb"
+    },
+    "background": [
+        {
+            "name": "Acolyte",
+            "source": "Guarda",
+            "page": 178,
+            "freeRules2024": true,
+            "edition": "one",
+            "feats": [
+                {
+                    "anyFromCategory": {
+                        "category": "O",
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": ["insight", "religion", "persuasion", "medicine"]
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "any": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 2,
+                    "specific": ["common"]
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Talento de antecedente: Refúgio ao fiel",
+                    "type": "entries",
+                    "entries": [
+                        "Como fiel peregrino, sua devoção incansável a uma jornada espiritual fortaleceu laços profundos com os santuários ao longo do seu caminho sagrado, mesmo que você nunca tenha visitado aquele templo antes, você sabe exatamente como pedir ajuda aos templos que seguem similaridades com sua fé. Você e seus companheiros de viagem podem esperar hospitalidade calorosa e cuidado espiritual nos lugares sagrados, marcos divinos e outros locais abençoados relacionados à entidades de mesmo alinhamento da entidade que você serve.",
+                        "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true
+        }
+    ]
+}
