@@ -22,7 +22,7 @@
     "background": [
         {
             "name": "Acolyte",
-            "source": "Guarda",
+            "source": "GUARDA",
             "page": 178,
             "freeRules2024": true,
             "edition": "one",
@@ -52,17 +52,12 @@
                     "any": true
                 }
             ],
-            "languageProficiencies": [
-                {
-                    "fixed": [
-                        "common"
-                    ],
-                    "choose": {
-                        "from": "anyStandard",
-                        "count": 2
-                    }
-                }
-            ],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 2
+				}
+			],
             "entries": [
                 {
                     "name": "Talento de antecedente: Refúgio ao fiel",
