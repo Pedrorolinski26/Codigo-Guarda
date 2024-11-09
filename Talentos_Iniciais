@@ -29,7 +29,7 @@
             "choose": {
                 "weighted": {
                     "from": [
-                        "int",
+                        "con",
                         "wis",
                         "cha"
                     ],
@@ -44,7 +44,7 @@
             "choose": {
                 "weighted": {
                     "from": [
-                        "int",
+                        "con",
                         "wis",
                         "cha"
                     ],
@@ -270,8 +270,8 @@
             "choose": {
                 "weighted": {
                     "from": [
+                        "con",
                         "int",
-                        "wis",
                         "cha"
                     ],
                     "weights": [
@@ -285,8 +285,8 @@
             "choose": {
                 "weighted": {
                     "from": [
+                        "con",
                         "int",
-                        "wis",
                         "cha"
                     ],
                     "weights": [
