@@ -840,10 +840,20 @@
 			"page": 11,
             "category": "G",
             "ability": [
-                {
-                    "any": true
-                }
-            ],
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+                                                        "con"
+							"int",
+							"wis",
+                                                        "cha"
+						],
+						"amount": 1
+					}
+				}
+			],
 			"prerequisite": [
 				{
 					"level": 4,
