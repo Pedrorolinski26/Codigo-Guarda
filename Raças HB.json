@@ -33,30 +33,9 @@
 				"walk": 30,
 				"swim": true
 			},
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 2
-					}
-				}
-			],
 			"feats": [
 				{
 					"any": 1
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 1
 				}
 			],
 			"entries": [
@@ -112,22 +91,6 @@
 				"walk": 30,
 				"fly": true
 			},
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 1,
-						"amount": 2
-					}
-				}
-			],
 			"darkvision": 60,
 			"feats": [
 				{
@@ -137,12 +100,6 @@
 			"skillProficiencies": [
 				{
 					"any": 1
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 1
 				}
 			],
 			"entries": [
