@@ -307,9 +307,16 @@
 			"source": "GUARDA",
 			"page": 190,
             "category": "G",
-			"ability": [
+            "ability": [
 				{
-					"cha": 1
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+                                                        "cha"
+						],
+						"amount": 1
+					}
 				}
 			],
 			"entries": [
@@ -486,6 +493,7 @@
 				{
 					"choose": {
 						"from": [
+                                                        "dex",
 							"int",
 							"wis"
 						],
@@ -590,7 +598,7 @@
 						"from": [
 							"int",
 							"wis",
-                            "cha"
+                                                        "cha"
 						],
 						"amount": 1
 					}
@@ -622,7 +630,14 @@
             "category": "G",
             "ability": [
 				{
-					"con": 1
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+                                                        "con"
+						],
+						"amount": 1
+					}
 				}
 			],
 			"entries": [
@@ -825,17 +840,10 @@
 			"page": 11,
             "category": "G",
             "ability": [
-				{
-					"choose": {
-						"from": [
-							"int",
-							"wis",
-                            "cha"
-						],
-						"amount": 1
-					}
-				}
-			],
+                {
+                    "any": true
+                }
+            ],
 			"prerequisite": [
 				{
 					"level": 4,
