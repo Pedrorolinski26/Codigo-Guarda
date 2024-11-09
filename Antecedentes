@@ -26,14 +26,80 @@
             "page": 178,
             "freeRules2024": true,
             "edition": "one",
-            "feats": [
-                {
-                    "anyFromCategory": {
-                        "category": "O",
-                        "count": 1
-                    }
-                }
-            ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
             "skillProficiencies": [
                 {
                     "choose": {
@@ -80,14 +146,80 @@
             "page": 178,
             "freeRules2024": true,
             "edition": "one",
-            "feats": [
-                {
-                    "anyFromCategory": {
-                        "category": "O",
-                        "count": 1
-                    }
-                }
-            ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
             "skillProficiencies": [
                 {
                     "choose": {
@@ -134,14 +266,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -188,14 +386,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -242,14 +506,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -296,14 +626,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -350,14 +746,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -404,14 +866,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -458,14 +986,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -512,14 +1106,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -566,14 +1226,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -620,14 +1346,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -674,14 +1466,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -728,14 +1586,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -782,14 +1706,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -837,14 +1827,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -891,14 +1947,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -945,14 +2067,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -999,14 +2187,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1053,14 +2307,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1107,14 +2427,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1161,14 +2547,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1216,14 +2668,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1270,14 +2788,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1325,14 +2909,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1379,14 +3029,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1433,14 +3149,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1487,14 +3269,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1542,14 +3390,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1596,14 +3510,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1650,14 +3630,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1704,14 +3750,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1758,14 +3870,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1813,14 +3991,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
@@ -1867,14 +4111,80 @@
     "page": 178,
     "freeRules2024": true,
     "edition": "one",
-    "feats": [
-        {
-            "anyFromCategory": {
-                "category": "O",
-                "count": 1
-            }
-        }
-    ],
+			"feats": [
+				{
+					"Scion of the Outer Planes [Inicial]|guarda": true
+								
+				},
+				{
+					"Squire of Solamnia [Inicial]|guarda": true
+								
+				},
+				{
+					"Initiate of High Sorcery [Inicial]|Guarda": true
+				},
+				{
+					"Rune Shaper [Inicial]|Guarda": true 
+				}, 
+				{
+					"Strike of the Giants [Inicial]|Guarda": true
+				},
+				{
+					"Strixhaven Initiate [Inicial]|Guarda": true 
+				},
+				{
+					"Tough [Inicial]|guarda": true
+								
+				},
+				{
+					"Tavern Brawler [Inicial]|Guarda": true
+				},
+				{
+					"Skilled (Dex, con wis) [Inicial]|Guarda": true 
+				},
+				{
+					"Skilled (str, int, cha) [Inicial]|Guarda": true
+				},
+				{
+					"Savage Attacker [Inicial]|Guarda": true 
+				},
+				{
+					"Musician [Inicial]|guarda": true
+								
+				},
+				{
+					"Magic Initiate (wizard) [Inicial]|Guarda": true
+				},
+				{
+					"Magic Initiate (Druid) [Inicial]|Guarda": true 
+				},
+				{
+					"Magic Initiate (Cleric) [Inicial]|Guarda": true
+				},
+				{
+					"Lucky (Con, Int, Cha) [Inicial]|Guarda": true 
+				},
+				{
+					"Lucky (dex, wis, cha) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Healer [Inicial]|Guarda": true
+				},
+				{
+					"Crafter [Inicial]|Guarda": true 
+				},
+				{
+					"Alert (Str, dex, int) [Inicial]|Guarda": true
+								
+				},
+				{
+					"Alert (dex, con, int) [Inicial]|Guarda": true
+				},
+				{
+					"Artificer Initiate [Inicial]|Guarda": true 
+				}
+			],
     "skillProficiencies": [
         {
             "choose": {
