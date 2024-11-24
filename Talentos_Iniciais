@@ -1243,54 +1243,38 @@
             }
         }
     ],
-			"reprintedAs": [
-				"Tavern Brawler|XPHB"
-			],
-    "ability": [
-        {
-            "choose": {
-                "weighted": {
-                    "from": [
-                        "str",
-                        "dex",
-                        "wis"
-                    ],
-                    "weights": [
-                        2,
-                        1
-                    ]
-                }
-            }
-        },
-        {
-            "choose": {
-                "weighted": {
-                    "from": [
-                        "str",
-                        "dex",
-                        "wis"
-                    ],
-                    "weights": [
-                        1,
-                        1,
-                        1
-                    ]
-                }
-            }
-        }
-    ],
 			"entries": [
-				"Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:",
+				"You gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"You are proficient with improvised weapons.",
-						"Your unarmed strike uses a {@damage d4} for damage.",
-						"When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target."
+					"type": "entries",
+					"name": "Enhanced Unarmed Strike",
+					"entries": [
+						"When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to {@dice 1d4} plus your Strength modifier instead of the normal damage of an Unarmed Strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damage Rerolls",
+					"entries": [
+						"Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Improvised Weaponry",
+					"entries": [
+						"You have proficiency with improvised weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Push",
+					"entries": [
+						"When you hit a creature with an Unarmed Strike as part of the {@action Attack|XPHB} action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn."
 					]
 				}
 			]
-        },
+		},
 			{
 			"name": "Skilled (Dex, con wis) [Inicial]",
 			"source": "Guarda",
