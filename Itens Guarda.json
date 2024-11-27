@@ -5790,7 +5790,7 @@
 				"page": 8,
 				"tier": "major",
 				"rarity": "uncommon",
-				"valueExpression": "[[baseItem.value]] + 120000",
+				"valueExpression": "120000",
 				"bonusAc": "+1",
 				"entries": [
 					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
