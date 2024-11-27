@@ -5922,9 +5922,6 @@
 					"type": "MA"
 				}
 			],
-			"excludes": {
-				"name": "Hide Armor"
-			},
 			"inherits": {
 				"namePrefix": "Adamantine ",
 				"source": "Guarda",
